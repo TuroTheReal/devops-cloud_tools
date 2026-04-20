@@ -374,6 +374,13 @@ See [LICENSE](LICENSE) file for details.
 
 ---
 
+## 📝 Related Articles
+
+Blog posts documenting the learning process and context behind this project:
+
+- 📝 [My DevOps/Cloud Engineer Roadmap](https://arthur-portfolio.com/en/blog/devops-roadmap) — 6-month learning plan from 42 common core to DevOps/Cloud Engineer
+
+---
 ## Contact
 
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
