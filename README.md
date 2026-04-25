@@ -20,6 +20,10 @@
 - [Best Practices](#best-practices)
 - [Contributing](#contributing)
 - [Related Resources](#related-resources)
+- [Statistics](#statistics)
+- [License](#license)
+- [Related Articles](#-related-articles)
+- [Contact](#contact)
 
 ## About
 
@@ -47,25 +51,28 @@ All assets in this repository are extracted from:
 
 ## Content Structure
 
+> **Note**: This repository is a work in progress. The structure below reflects the planned organization — subdirectories and assets will be added as they are extracted from real projects.
+
 ```
 devops-cloud_tools/
 ├── scripts/                  # Automation scripts
-│   ├── docker/              # Container management
-│   ├── kubernetes/          # K8s operations
-│   ├── terraform/           # IaC automation
-│   ├── ansible/             # Config management
-│   ├── aws/                 # AWS utilities
-│   └── utils/               # General utilities
-├── configs/                 # Configuration templates
+│   ├── README.md            # Scripts index (current)
+│   ├── docker/              # Container management (planned)
+│   ├── kubernetes/          # K8s operations (planned)
+│   ├── terraform/           # IaC automation (planned)
+│   ├── ansible/             # Config management (planned)
+│   ├── aws/                 # AWS utilities (planned)
+│   └── utils/               # General utilities (planned)
+├── configs/                  # Configuration templates (planned)
 │   ├── docker/              # Dockerfiles, compose files
 │   ├── kubernetes/          # K8s manifests
 │   ├── terraform/           # TF modules and configs
 │   └── ci-cd/               # Pipeline configs
-├── templates/               # Boilerplate code
+├── templates/                # Boilerplate code (planned)
 │   ├── Dockerfile.python
 │   ├── Dockerfile.node
 │   └── docker-compose.webapp.yml
-└── README.md                # This file
+└── README.md                 # This file
 ```
 
 ### Naming Conventions
@@ -271,7 +278,7 @@ nano deploy-terraform.sh
 # - Add usage documentation
 
 # 4. Document extraction in project learnings
-cd ~/devops-cloud_vault/projects/2025-12-my-project/
+cd ~/devops-cloud_vault/projects/2026-04-my-project/
 nano learnings.md
 # Add to "Reusable Assets" section
 
@@ -361,7 +368,6 @@ set -euo pipefail
 - **Total Scripts**: 0 (Ready to extract!)
 - **Total Configs**: 0
 - **Total Templates**: 0
-- **Last Updated**: 2025-12-23
 - **Projects Contributing**: 0
 
 ---
@@ -381,6 +387,7 @@ Blog posts documenting the learning process and context behind this project:
 - 📝 [My DevOps/Cloud Engineer Roadmap](https://arthur-portfolio.com/en/blog/devops-roadmap) — 6-month learning plan from 42 common core to DevOps/Cloud Engineer
 
 ---
+
 ## Contact
 
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
@@ -399,7 +406,7 @@ Blog posts documenting the learning process and context behind this project:
 
 ---
 
-**Last Updated**: 2025-12-23
+**Last Updated**: 2026-04
 **Version**: 1.0
 **Maintained by**: Arthur Bernard
 **Philosophy**: Extract from experience, reuse with confidence
