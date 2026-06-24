@@ -1,0 +1,13 @@
+# Terraform working dir and state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# tfvars may carry secrets: ignore them, keep the example
+*.tfvars
+*.auto.tfvars
+!*.tfvars.example
+
+# Keep .terraform.lock.hcl committed (do NOT ignore it)

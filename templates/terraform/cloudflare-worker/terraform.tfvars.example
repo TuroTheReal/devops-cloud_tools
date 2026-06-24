@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (gitignored) and fill in.
+# Auth: export CLOUDFLARE_API_TOKEN instead of putting the token here.
+account_id  = "CHANGE_ME"
+zone_id     = "CHANGE_ME"
+hostname    = "app.example.com"
+worker_name = "my-worker"
+# route_pattern = "app.example.com/*" # only for Strategy B
