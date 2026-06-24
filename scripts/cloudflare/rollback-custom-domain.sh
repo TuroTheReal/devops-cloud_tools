@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 #
 # Script: rollback-custom-domain.sh
-# Description: Rollback du cutover Custom Domain. Detache le Worker custom domain,
-#              recree le record DNS sauvegarde par cutover-custom-domain.sh, puis
-#              reattache le host au projet Pages.
+# Description: Rollback of the Custom Domain cutover. Detaches the Worker custom
+#              domain, re-creates the DNS record saved by cutover-custom-domain.sh,
+#              then re-attaches the host to the Pages project.
 # Usage: ./rollback-custom-domain.sh <host> <pages_project>
 #
 # Prerequisites:
 #   - bash, curl, jq
-#   - cutover-custom-domain.sh doit avoir tourne avant (fichier $SAVE present)
-#   - Cloudflare API token avec: Zone DNS Edit, Account Workers Edit,
-#     Account Cloudflare Pages Edit (verifier les scopes exacts dans le dashboard CF)
+#   - cutover-custom-domain.sh must have run first ($SAVE file present)
+#   - Cloudflare API token with: Zone DNS Edit, Account Workers Edit,
+#     Account Cloudflare Pages Edit (verify exact scopes in the CF dashboard)
 #
 # Environment:
-#   CLOUDFLARE_API_TOKEN  (required)  token API
-#   ACCOUNT_ID            (required)  id du compte Cloudflare
-#   ZONE_ID               (required)  id de la zone du host
-#   SAVE                  (optional)  chemin du record DNS sauvegarde au cutover
-#                                     (defaut: /tmp/cf-reconcile-record-<host>.json)
+#   CLOUDFLARE_API_TOKEN  (required)  API token
+#   ACCOUNT_ID            (required)  Cloudflare account id
+#   ZONE_ID               (required)  zone id of the host
+#   SAVE                  (optional)  path of the DNS record saved at cutover
+#                                     (default: /tmp/cf-reconcile-record-<host>.json)
 #
-# Sequence (inverse du cutover):
-#   1. supprime le Worker custom domain
-#   2. recree le record DNS depuis $SAVE (type/content/proxied a l'identique)
-#   3. reattache le host au projet Pages
+# Sequence (reverse of the cutover):
+#   1. delete the Worker custom domain
+#   2. re-create the DNS record from $SAVE (type/content/proxied identical)
+#   3. re-attach the host to the Pages project
 #
 # Examples:
 #   export CLOUDFLARE_API_TOKEN=... ACCOUNT_ID=... ZONE_ID=...

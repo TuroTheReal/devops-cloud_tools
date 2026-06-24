@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 #
 # Script: rollback-worker-route.sh
-# Description: Rollback du cutover via Worker Route. Retrouve la route dont le
-#              pattern vaut <host>/* et la supprime, ce qui rend le host au routage
-#              precedent (Pages).
+# Description: Rollback of the Worker Route cutover. Finds the route whose pattern
+#              is <host>/* and deletes it, returning the host to its previous
+#              routing (Pages).
 # Usage: ./rollback-worker-route.sh <host>
 #
 # Prerequisites:
 #   - bash, curl, jq
-#   - Cloudflare API token avec: Zone Workers Routes Edit
-#     (verifier le scope exact dans le dashboard CF)
+#   - Cloudflare API token with: Zone Workers Routes Edit
+#     (verify exact scope in the CF dashboard)
 #
 # Environment:
-#   CLOUDFLARE_API_TOKEN  (required)  token API
-#   ZONE_ID               (required)  id de la zone du host
+#   CLOUDFLARE_API_TOKEN  (required)  API token
+#   ZONE_ID               (required)  zone id of the host
 #
 # Examples:
 #   export CLOUDFLARE_API_TOKEN=... ZONE_ID=...

@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 #
 # Script: cutover-worker-route.sh
-# Description: Cutover d'un hostname vers un Worker via une Worker Route (pattern
-#              <host>/*). Plus simple que le custom domain: ne touche pas au DNS,
-#              cree juste une route qui intercepte le trafic du host vers le Worker.
+# Description: Cutover a hostname to a Worker via a Worker Route (pattern <host>/*).
+#              Simpler than the custom domain: does not touch DNS, just creates a
+#              route that intercepts the host's traffic and sends it to the Worker.
 # Usage: ./cutover-worker-route.sh <host> <worker>
 #
 # Prerequisites:
 #   - bash, curl, jq
-#   - Cloudflare API token avec: Zone Workers Routes Edit
-#     (verifier le scope exact dans le dashboard CF)
+#   - Cloudflare API token with: Zone Workers Routes Edit
+#     (verify exact scope in the CF dashboard)
 #
 # Environment:
-#   CLOUDFLARE_API_TOKEN  (required)  token API
-#   ZONE_ID               (required)  id de la zone du host
+#   CLOUDFLARE_API_TOKEN  (required)  API token
+#   ZONE_ID               (required)  zone id of the host
 #
 # Examples:
 #   export CLOUDFLARE_API_TOKEN=... ZONE_ID=...

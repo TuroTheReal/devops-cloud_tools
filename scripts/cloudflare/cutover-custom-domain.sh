@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 #
 # Script: cutover-custom-domain.sh
-# Description: Cutover d'un hostname de Cloudflare Pages vers un Worker, via Worker
-#              Custom Domain. Sauvegarde le record DNS courant avant de le supprimer
-#              pour que rollback-custom-domain.sh puisse le restaurer a l'identique.
+# Description: Cutover a hostname from Cloudflare Pages to a Worker, via a Worker
+#              Custom Domain. Saves the current DNS record before deleting it so
+#              rollback-custom-domain.sh can restore it identically.
 # Usage: ./cutover-custom-domain.sh <host> <worker> <pages_project>
 #
 # Prerequisites:
 #   - bash, curl, jq
-#   - Cloudflare API token avec: Zone DNS Edit, Account Workers Edit,
-#     Account Cloudflare Pages Edit (verifier les scopes exacts dans le dashboard CF)
+#   - Cloudflare API token with: Zone DNS Edit, Account Workers Edit,
+#     Account Cloudflare Pages Edit (verify exact scopes in the CF dashboard)
 #
 # Environment:
-#   CLOUDFLARE_API_TOKEN  (required)  token API
-#   ACCOUNT_ID            (required)  id du compte Cloudflare
-#   ZONE_ID               (required)  id de la zone du host
-#   SAVE                  (optional)  chemin de sauvegarde du record DNS
-#                                     (defaut: /tmp/cf-reconcile-record-<host>.json)
+#   CLOUDFLARE_API_TOKEN  (required)  API token
+#   ACCOUNT_ID            (required)  Cloudflare account id
+#   ZONE_ID               (required)  zone id of the host
+#   SAVE                  (optional)  path where the DNS record is saved
+#                                     (default: /tmp/cf-reconcile-record-<host>.json)
 #
-# Sequence (l'ordre compte):
-#   1. save du record DNS courant -> $SAVE  (indispensable au rollback)
-#   2. detache le host du projet Pages
-#   3. supprime le record DNS
-#   4. cree le Worker custom domain
+# Sequence (order matters):
+#   1. save the current DNS record -> $SAVE  (required for rollback)
+#   2. detach the host from the Pages project
+#   3. delete the DNS record
+#   4. create the Worker custom domain
 #
 # Examples:
 #   export CLOUDFLARE_API_TOKEN=... ACCOUNT_ID=... ZONE_ID=...

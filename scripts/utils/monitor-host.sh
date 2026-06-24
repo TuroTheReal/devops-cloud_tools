@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 #
 # Script: monitor-host.sh
-# Description: Poll un host et affiche timestamp + code HTTP + quelle origine sert
-#              (OLD/NEW, detectee par un marqueur de contenu unique a chaque origine).
-#              000/DOWN = le gap de downtime. Utile pour n'importe quelle bascule:
-#              cutover, deploiement, switch DNS, failover. Ctrl-C pour stop.
+# Description: Poll a host and print timestamp + HTTP code + which origin serves
+#              (OLD/NEW, detected by a content marker unique to each origin).
+#              000/DOWN flags the downtime gap. Useful for any switch: cutover,
+#              deploy, DNS switch, failover. Ctrl-C to stop.
 # Usage: ./monitor-host.sh <host> [interval_s]
 #
 # Prerequisites:
 #   - bash, curl, grep
 #
 # Environment:
-#   OLD_MARKER  (optional)  chaine de contenu unique a la reponse de l'ANCIENNE origine
-#   NEW_MARKER  (optional)  chaine de contenu unique a la reponse de la NOUVELLE origine
-#   (si un marqueur est vide, cette origine n'est pas detectee -> affiche "?")
+#   OLD_MARKER  (optional)  content string unique to the OLD origin's response
+#   NEW_MARKER  (optional)  content string unique to the NEW origin's response
+#   (if a marker is empty, that origin is not detected -> shows "?")
 #
 # Examples:
 #   ./monitor-host.sh app.example.com

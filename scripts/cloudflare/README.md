@@ -17,7 +17,7 @@
 When you migrate an app from **Cloudflare Pages** to a **Worker**, the hostname has
 to be re-pointed from the Pages project to the Worker. These scripts do that
 switch (and its rollback) through the Cloudflare API, with a monitor to watch the
-gap during the bascule.
+downtime gap during the switch.
 
 Two strategies, pick one:
 
