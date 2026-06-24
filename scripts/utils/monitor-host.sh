@@ -23,6 +23,7 @@
 #
 # Source: Extracted from a Cloudflare Pages -> Workers migration (2026-06)
 # Tested on: macOS, Ubuntu
+# Last verified: 2026-06
 #
 HOST="${1:?usage: $0 <host> [interval_s]   e.g. app.example.com}"
 INTERVAL="${2:-0.3}"
