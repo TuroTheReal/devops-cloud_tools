@@ -21,6 +21,7 @@
 #
 # Source: Extracted from a Cloudflare Pages -> Workers migration (2026-06)
 # Tested on: macOS, Ubuntu
+# Last verified: 2026-06 (against the live Cloudflare API during the migration)
 #
 set -euo pipefail
 : "${CLOUDFLARE_API_TOKEN:?export CLOUDFLARE_API_TOKEN first}"
