@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars (gitignored) and fill in your values.
+project_name = "client-x"
+environment  = "dev"
+region       = "eu-west-3"
