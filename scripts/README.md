@@ -34,6 +34,7 @@ scripts/
 ├── terraform/           # IaC automation
 ├── ansible/             # Config management
 ├── aws/                 # AWS utilities
+├── cloudflare/          # Cloudflare edge: Pages -> Workers cutover (available)
 ├── utils/               # General utilities
 └── README.md            # This file
 ```
@@ -74,51 +75,18 @@ Each script includes a header with:
 
 ## Available Scripts
 
-### 🐳 Docker
+Each category folder owns its full script list and usage docs (the source of
+truth). This index only points to them.
 
-Coming soon:
-- Container cleanup and maintenance
-- Image optimization helpers
-- Registry management
-
-### ☸️ Kubernetes
-
-Coming soon:
-- Pod restart automation
-- Resource cleanup utilities
-- Health check scripts
-- Certificate management
-
-### 🏗️ Terraform
-
-Coming soon:
-- State backup and management
-- Deployment automation
-- Resource cleanup
-- Cost estimation
-
-### 📜 Ansible
-
-Coming soon:
-- Inventory management
-- Playbook testing
-- Role generation
-
-### ☁️ AWS
-
-Coming soon:
-- S3 backup/sync operations
-- EC2 instance management
-- IAM policy helpers
-- Cost analysis
-
-### 🛠️ Utilities
-
-Coming soon:
-- Log analysis and parsing
-- Backup automation
-- Monitoring helpers
-- File manipulation
+| Category | Status | What's inside |
+| --- | --- | --- |
+| [☁️ Cloudflare](cloudflare/) | Active | Pages -> Workers cutover + rollback (custom domain / worker route) |
+| [🛠️ Utilities](utils/) | Active | host / HTTP monitoring during a switch |
+| 🐳 Docker | Planned | container management |
+| ☸️ Kubernetes | Planned | k8s operations |
+| 🏗️ Terraform | Planned | IaC automation |
+| 📜 Ansible | Planned | config management |
+| ☁️ AWS | Planned | AWS utilities |
 
 ---
 
@@ -207,11 +175,11 @@ git commit -m "Add: [description] from [project]"
 
 ## Statistics
 
-- **Total Scripts**: 0 (Ready to start!)
-- **Categories**: 6 planned (Docker, K8s, Terraform, Ansible, AWS, Utils)
-- **Last Updated**: 2025-12-23
+- **Live categories**: Cloudflare, Utilities
+- **Planned**: Docker, Kubernetes, Terraform, Ansible, AWS
+- **Last Updated**: 2026-06-24
 
 ---
 
-**Last Updated**: 2025-12-23
+**Last Updated**: 2026-06-24
 **Maintained by**: Arthur Bernard

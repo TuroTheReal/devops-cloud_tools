@@ -62,6 +62,7 @@ devops-cloud_tools/
 │   ├── terraform/           # IaC automation (planned)
 │   ├── ansible/             # Config management (planned)
 │   ├── aws/                 # AWS utilities (planned)
+│   ├── cloudflare/          # Cloudflare Pages -> Workers cutover (available)
 │   └── utils/               # General utilities (planned)
 ├── configs/                  # Configuration templates (planned)
 │   ├── docker/              # Dockerfiles, compose files
@@ -212,12 +213,18 @@ docker build -t my-app .
 
 ---
 
+### ☁️ Cloudflare
+
+Pages -> Workers cutover + rollback (custom domain / worker route).
+See [`scripts/cloudflare/`](scripts/cloudflare/) for the full list and usage.
+
+---
+
 ### 🛠️ Utilities
 
-**Scripts**:
-- Coming soon: Backup automation
-- Coming soon: Log analysis tools
-- Coming soon: Monitoring helpers
+Host / HTTP monitoring during a switch. See [`scripts/utils/`](scripts/utils/).
+
+**Planned**: backup automation, log analysis.
 
 ---
 
@@ -365,10 +372,9 @@ set -euo pipefail
 
 ## Statistics
 
-- **Total Scripts**: 0 (Ready to extract!)
-- **Total Configs**: 0
-- **Total Templates**: 0
-- **Projects Contributing**: 0
+- **Live categories**: Cloudflare, Utilities (see [scripts/](scripts/))
+- **Configs / Templates**: none yet
+- **Projects Contributing**: 1
 
 ---
 
@@ -406,7 +412,7 @@ Blog posts documenting the learning process and context behind this project:
 
 ---
 
-**Last Updated**: 2026-04
+**Last Updated**: 2026-06
 **Version**: 1.0
 **Maintained by**: Arthur Bernard
 **Philosophy**: Extract from experience, reuse with confidence
