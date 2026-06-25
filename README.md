@@ -1,6 +1,7 @@
 # DEVOPS CLOUD TOOLS
 
 <p align="center">
+  <a href="https://github.com/TuroTheReal/devops-cloud_tools/actions/workflows/ci.yml"><img src="https://github.com/TuroTheReal/devops-cloud_tools/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
   <img src="https://img.shields.io/badge/Status-Active-success.svg"/>
   <img src="https://img.shields.io/badge/Type-Reusable_Assets-blue.svg"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
@@ -295,6 +296,25 @@ git push
 
 # 6. Update tools README
 nano scripts/terraform/README.md  # Add script to list
+```
+
+---
+
+## Quality
+
+Every PR runs CI (must pass to merge, branch protection on `main`):
+
+- `shellcheck` on shell scripts
+- `terraform fmt -check` + `validate` on the templates
+- `gitleaks` secret scan
+
+Run the same checks locally before pushing:
+
+```bash
+terraform fmt -recursive templates/terraform
+find scripts -name '*.sh' -print0 | xargs -0 shellcheck
+# optional git-hook layer (runs on every commit):
+pre-commit install
 ```
 
 ---
