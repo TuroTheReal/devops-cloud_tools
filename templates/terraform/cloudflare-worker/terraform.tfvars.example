@@ -4,4 +4,4 @@ account_id  = "CHANGE_ME"
 zone_id     = "CHANGE_ME"
 hostname    = "app.example.com"
 worker_name = "my-worker"
-# route_pattern = "app.example.com/*" # only for Strategy B
+# route_pattern = "app.example.com/*" # only if using the permanent route block in main.tf

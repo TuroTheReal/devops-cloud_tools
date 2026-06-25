@@ -26,7 +26,7 @@ variable "worker_name" {
 }
 
 variable "route_pattern" {
-  description = "Route pattern, only for Strategy B (e.g. app.example.com/*)."
+  description = "Route pattern (e.g. app.example.com/*). Only used if you uncomment the permanent route block in main.tf; the transient cutover route is handled by the runbook scripts."
   type        = string
   default     = ""
 }
