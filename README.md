@@ -69,10 +69,8 @@ devops-cloud_tools/
 │   ├── kubernetes/          # K8s manifests
 │   ├── terraform/           # TF modules and configs
 │   └── ci-cd/               # Pipeline configs
-├── templates/                # Boilerplate code (planned)
-│   ├── Dockerfile.python
-│   ├── Dockerfile.node
-│   └── docker-compose.webapp.yml
+├── templates/                # Boilerplate / scaffolds
+│   └── terraform/            # IaC stack templates (aws-stack, cloudflare-worker)
 └── README.md                 # This file
 ```
 
