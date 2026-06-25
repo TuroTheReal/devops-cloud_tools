@@ -5,16 +5,17 @@ Worker, the Terraform way. The IaC equivalent of the cutover scripts in
 [`scripts/cloudflare/`](../../../scripts/cloudflare/). Copy it, fill the
 placeholders.
 
-## Two strategies (pick one)
+## What this template manages
 
-| Strategy | Resource | When |
-| --- | --- | --- |
-| **Custom Domain** | `cloudflare_workers_custom_domain` | host is Cloudflare-managed, you want a real custom domain. Touches DNS. |
-| **Worker Route** | `cloudflare_workers_route` | gap-free, but a **transient cutover bridge**: add it, cut over, then delete it. Manage it with the runbook scripts, not TF. |
+This template declares the **durable binding**: a Worker **custom domain**
+(`cloudflare_workers_custom_domain`). That is the "IaC reconcile" end-state of the
+cutover runbook, and the only resource it ships active.
 
-`main.tf` ships the **custom domain** (durable binding) active. The route is the
-**bridge** you use during cutover via the runbook scripts, not a TF-managed
-resource. This template is the "IaC reconcile" end-state of the runbook.
+The **Worker Route** plays a different role: a **gap-free transient bridge** you add
+during cutover and then delete (see the runbook). Manage it with the scripts
+(`cutover-worker-route.sh` / `rollback-worker-route.sh`), **not** in Terraform,
+which would create-then-destroy it. `main.tf` keeps a commented route block only
+for the rare case where you want a *permanent* route instead of a custom domain.
 
 ## Prerequisites
 
