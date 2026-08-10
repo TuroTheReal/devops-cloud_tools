@@ -71,7 +71,8 @@ devops-cloud_tools/
 │   ├── terraform/           # TF modules and configs
 │   └── ci-cd/               # Pipeline configs
 ├── templates/                # Boilerplate / scaffolds
-│   └── terraform/            # IaC stack templates (aws-stack, cloudflare-worker)
+│   ├── terraform/            # IaC stack templates (aws-stack, cloudflare-worker)
+│   └── docs/                 # Documentation templates (project one-pager)
 └── README.md                 # This file
 ```
 
@@ -224,6 +225,12 @@ See [`scripts/cloudflare/`](scripts/cloudflare/) for the full list and usage.
 Host / HTTP monitoring during a switch. See [`scripts/utils/`](scripts/utils/).
 
 **Planned**: backup automation, log analysis.
+
+---
+
+### 📄 Documentation
+
+Project one-pager + runbook template, SPOF-proof (anyone can pick a project up without you). See [`templates/docs/one-pager.md`](templates/docs/one-pager.md).
 
 ---
 
