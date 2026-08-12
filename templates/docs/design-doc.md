@@ -1,4 +1,4 @@
-# Design doc: [system / change]
+# Design doc: [title]
 
 > Reusable template for a **technical design proposal**.
 > Goal: think ahead, get feedback **early**, and document the *why* behind new code (this is the genesis of a system, not its ongoing documentation).

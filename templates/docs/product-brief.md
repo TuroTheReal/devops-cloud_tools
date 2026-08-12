@@ -1,4 +1,4 @@
-# Problem brief: [name]
+# Product brief: [name]
 
 > A living doc that states **one** problem, the mission that solves it, and the impact of solving it.
 > **Start from the problem, not the solution.** Audience: readable by someone outside your team.
