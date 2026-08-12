@@ -72,7 +72,8 @@ devops-cloud_tools/
 │   └── ci-cd/               # Pipeline configs
 ├── templates/                # Boilerplate / scaffolds
 │   ├── terraform/            # IaC stack templates (aws-stack, cloudflare-worker)
-│   └── docs/                 # Documentation templates (project one-pager)
+│   ├── docs/                 # Doc templates (one-pager, design-doc, postmortem, problem-brief)
+│   └── freelance/            # Freelance business docs, FR + EN (devis, avenant, PV, facture, avoir, maintenance-SLA)
 └── README.md                 # This file
 ```
 
@@ -230,7 +231,8 @@ Host / HTTP monitoring during a switch. See [`scripts/utils/`](scripts/utils/).
 
 ### 📄 Documentation
 
-Project one-pager + runbook template, SPOF-proof (anyone can pick a project up without you). See [`templates/docs/one-pager.md`](templates/docs/one-pager.md).
+- **Project docs** ([`templates/docs/`](templates/docs/)): project one-pager + runbook (SPOF-proof), engineering design doc (with ADR), blameless postmortem, product problem brief.
+- **Freelance business docs** ([`templates/freelance/`](templates/freelance/), FR + EN): devis, avenant, PV de réception, facture, avoir, maintenance/SLA. French-law, sourced (`SOURCES.md`) — not legal advice.
 
 ---
 
