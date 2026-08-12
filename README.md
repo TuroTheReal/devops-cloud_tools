@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://github.com/TuroTheReal/devops-cloud_tools/actions/workflows/ci.yml"><img src="https://github.com/TuroTheReal/devops-cloud_tools/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
   <img src="https://img.shields.io/badge/Status-Active-success.svg"/>
+  <img src="https://img.shields.io/badge/Updated-2026--08-blue.svg"/>
   <img src="https://img.shields.io/badge/Type-Reusable_Assets-blue.svg"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
 </p>
@@ -13,20 +14,22 @@
 
 ---
 
-## Table of Contents
-- [About](#about)
-- [Content Structure](#content-structure)
-- [Usage Guide](#usage-guide)
-- [Categories](#categories)
-- [Best Practices](#best-practices)
-- [Contributing](#contributing)
-- [Related Resources](#related-resources)
-- [Statistics](#statistics)
-- [License](#license)
-- [Related Articles](#-related-articles)
-- [Contact](#contact)
+## 📑 Table of Contents
 
-## About
+- [📌 About](#-about)
+- [📁 Content Structure](#-content-structure)
+- [📖 Usage Guide](#-usage-guide)
+- [📚 Categories](#-categories)
+- [💡 Best Practices](#-best-practices)
+- [🧪 Quality](#-quality)
+- [🤝 Contributing](#-contributing)
+- [🔗 Related Resources](#-related-resources)
+- [📊 Statistics](#-statistics)
+- [📜 License](#-license)
+- [📝 Related Articles](#-related-articles)
+- [📬 Contact](#-contact)
+
+## 📌 About
 
 **DevOps Cloud Tools** is a collection of battle-tested, reusable assets extracted from real projects. Every script, config, and template here has been used in production or real-world scenarios and proven valuable enough to save for future use.
 
@@ -50,7 +53,7 @@ All assets in this repository are extracted from:
 
 ---
 
-## Content Structure
+## 📁 Content Structure
 
 > **Note**: This repository is a work in progress. The structure below reflects the planned organization — subdirectories and assets will be added as they are extracted from real projects.
 
@@ -88,7 +91,7 @@ devops-cloud_tools/
 
 ---
 
-## Usage Guide
+## 📖 Usage Guide
 
 ### Using Scripts
 
@@ -144,7 +147,7 @@ docker build -t my-app .
 
 ---
 
-## Categories
+## 📚 Categories
 
 ### 🐳 Docker
 
@@ -236,7 +239,7 @@ Host / HTTP monitoring during a switch. See [`scripts/utils/`](scripts/utils/).
 
 ---
 
-## Best Practices
+## 💡 Best Practices
 
 ### 📖 Using Assets
 
@@ -309,7 +312,7 @@ nano scripts/terraform/README.md  # Add script to list
 
 ---
 
-## Quality
+## 🧪 Quality
 
 Every PR runs CI (must pass to merge, branch protection on `main`):
 
@@ -328,7 +331,7 @@ pre-commit install
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 ### Adding New Assets
 
@@ -385,7 +388,7 @@ set -euo pipefail
 
 ---
 
-## Related Resources
+## 🔗 Related Resources
 
 ### Internal Links
 - [devops-cloud_vault](https://github.com/TuroTheReal/devops-cloud_vault) - Knowledge base and project learnings
@@ -397,7 +400,7 @@ set -euo pipefail
 
 ---
 
-## Statistics
+## 📊 Statistics
 
 - **Live categories**: Cloudflare, Utilities (see [scripts/](scripts/))
 - **Configs / Templates**: none yet
@@ -405,7 +408,7 @@ set -euo pipefail
 
 ---
 
-## License
+## 📜 License
 
 MIT License - Feel free to use these assets in your own projects.
 
@@ -421,7 +424,7 @@ Blog posts documenting the learning process and context behind this project:
 
 ---
 
-## Contact
+## 📬 Contact
 
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
 - **Email**: arthurbernard.dev@gmail.com
@@ -439,7 +442,7 @@ Blog posts documenting the learning process and context behind this project:
 
 ---
 
-**Last Updated**: 2026-06
+**Last Updated**: 2026-08
 **Version**: 1.0
 **Maintained by**: Arthur Bernard
 **Philosophy**: Extract from experience, reuse with confidence
