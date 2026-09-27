@@ -6,7 +6,7 @@
 > ⚠️ Ce n'est **pas** un avenant : l'avenant modifie le contrat **avant** facturation ; l'avoir corrige une facture **après** émission. Pas un conseil juridique — voir `SOURCES.md`.
 > Remplace les `[placeholders]`.
 
-## At a glance
+## En bref
 
 - **Avoir n° :** [même séquence que les factures, chronologique sans trou — ex. 2026-015]
 - **Date d'émission :** [JJ/MM/AAAA]

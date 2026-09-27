@@ -6,7 +6,7 @@
 > Les sections *Accès* et *Transfert des identifiants* ne sont pas des champs légaux du PV, mais c'est le vrai "handover" d'une livraison logicielle (anti-SPOF côté client).
 > ⚠️ Pas un conseil juridique — voir `SOURCES.md`. Remplace les `[placeholders]`.
 
-## At a glance
+## En bref
 
 - **Client (maître d'ouvrage) :** [nom]
 - **Prestataire (maître d'œuvre) :** [nom]
@@ -59,6 +59,13 @@ Défauts/objections soulevés. Une réception **avec réserves** préserve les r
 - [ ] **Sans réserve** — conforme, débloque le paiement final.
 - [ ] **Avec réserves** — accepté sauf points du §5.
 - [ ] **Refus** — non conforme, motifs : [.…].
+
+## 6 bis. Ce que la réception déclenche
+
+- **Solde exigible** : [montant] €, facturé contre le présent procès-verbal, payable à [15] jours.
+- **Garantie corrective** : [30] jours à compter du [date de réception], sur le périmètre livré, en heures ouvrées.
+- **Transfert de responsabilité** : à compter de cette date, l'exploitation, la surveillance et la maintenance des systèmes relèvent du Client.
+- **Révocation des accès du Prestataire** : effectuée par le Client le [date]. À défaut de signature du présent procès-verbal et de réserve écrite dans le délai prévu aux conditions générales, la réception est réputée acquise sans réserve.
 
 ## 7. Signatures
 

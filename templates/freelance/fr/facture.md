@@ -7,12 +7,12 @@
 > Facture fausse ou annulée ? On ne la modifie pas → on émet un **avoir** (`avoir.md`).
 > Remplace les `[placeholders]`.
 
-## At a glance
+## En bref
 
 - **Facture n° :** [séquence chronologique continue, sans trou — ex. 2026-001]
 - **Date d'émission :** [JJ/MM/AAAA] · **Date de la prestation :** [JJ/MM/AAAA]
 - **Réf. :** devis n° [x] · PV de réception du [date]
-- **Échéance :** [ex. 30 jours / à réception]
+- **Échéance :** [15 jours date de facture]
 
 ## Prestataire
 
@@ -42,7 +42,7 @@ SIRET [xxxxxxxxxxxxxx] · [forme juridique]
 
 ## Paiement
 
-- **Échéance :** [date / à réception]. *(plafond légal B2B : 30 j, ou 45 j fin de mois / 60 j si convenu.)*
+- **Échéance :** [date]. *(la loi plafonne à 60 j, ou 45 j fin de mois ; elle ne fixe aucun minimum, d'où les 15 j retenus aux CGV.)*
 - **Moyen :** virement — [IBAN / BIC].
 - **Pénalités de retard :** [taux] % *(≥ 3× le taux d'intérêt légal ; à défaut de taux indiqué, taux directeur BCE + 10 points. Révisé chaque semestre — garde-le en variable.)*
 - **Indemnité forfaitaire de recouvrement : 40 €** *(B2B, par facture impayée — art. L441-10 et D441-5 du Code de commerce.)*
@@ -89,6 +89,6 @@ Réforme en cours, calendrier légal actuel (déjà repoussé par le passé → 
 
 - Prestation : forfait « pipeline CI/CD + monitoring » — 6 000 € net.
 - **Total net à payer : 6 000 €.** TVA non applicable, art. 293 B du CGI.
-- Échéance : 30 jours. Pénalités : [taux] % + indemnité 40 €. Pas d'escompte pour paiement anticipé.
+- Échéance : 15 jours. Pénalités : [taux] % + indemnité 40 €. Pas d'escompte pour paiement anticipé.
 
 </details>
