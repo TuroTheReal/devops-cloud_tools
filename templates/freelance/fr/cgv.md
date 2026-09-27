@@ -12,7 +12,16 @@
 
 ## 1. Objet et champ d'application
 
-Les présentes conditions générales régissent toute prestation réalisée par **[nom], entrepreneur individuel (EI)**, SIRET [n°], ci-après « le Prestataire », pour le compte d'un client professionnel, ci-après « le Client ».
+Les présentes conditions générales régissent toute prestation réalisée par le Prestataire pour le compte d'un client professionnel, ci-après « le Client ».
+
+**Prestataire**
+
+- [nom], entrepreneur individuel (EI)
+- [adresse complète]
+- SIRET [n°], activité : conseil et ingénierie en systèmes et logiciels informatiques
+- [email]
+
+Toute notification prévue aux présentes, notamment les mises en demeure des §11, §22 et §23, est valablement adressée à cette adresse.
 
 Elles s'appliquent à l'exclusion de tout autre document, notamment des conditions générales d'achat du Client, sauf accord écrit contraire.
 
@@ -296,6 +305,7 @@ Où il ne faut pas aller : exclure toute responsabilité, supprimer la garantie,
 - [ ] Contrat de sous-traitance RGPD prêt (§16)
 - [ ] Cahier de recette type prêt (§9)
 - [ ] Journal d'intervention type prêt (§17)
+- [ ] **Adresse complète renseignée au §1.** Un contrat a besoin d'une adresse où notifier : sans elle, les mises en demeure des §11, §22 et §23 n'ont pas de destinataire. Refuser son adresse sur un site public est un choix tenable, la refuser sur un contrat ne l'est pas. Si l'adresse personnelle pose problème, prendre une domiciliation.
 - [ ] Version et date renseignées en tête, et citées dans le devis
 - [ ] Export PDF joint à chaque devis
 

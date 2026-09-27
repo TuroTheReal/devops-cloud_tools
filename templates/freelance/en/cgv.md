@@ -14,7 +14,16 @@
 
 ## 1. Purpose and scope
 
-These general terms govern any service performed by **[name], entrepreneur individuel (EI, French sole trader)**, SIRET [no.], hereinafter "the Provider", for a professional client, hereinafter "the Client".
+These general terms govern any service performed by the Provider for a professional client, hereinafter "the Client".
+
+**Provider**
+
+- [name], entrepreneur individuel (EI, French sole trader)
+- [full address]
+- SIRET [no.], activity: consulting and engineering in computer systems and software
+- [email]
+
+Any notice under these terms, in particular the formal notices in §11, §22 and §23, is validly sent to that address.
 
 They apply to the exclusion of any other document, in particular the Client's general purchasing terms, unless otherwise agreed in writing.
 
@@ -298,6 +307,7 @@ Where not to go: excluding all liability, removing the warranty, requiring a 100
 - [ ] GDPR data processing agreement ready (§16)
 - [ ] Standard acceptance test plan ready (§9)
 - [ ] Standard intervention log ready (§17)
+- [ ] **Full address filled in under §1.** A contract needs an address to serve notice to: without one, the formal notices in §11, §22 and §23 have no recipient. Withholding your address from a public website is defensible, withholding it from a contract is not. If the home address is a problem, use a registered business address service.
 - [ ] Version and date filled in at the top, and cited in the quote
 - [ ] PDF export attached to every quote
 
