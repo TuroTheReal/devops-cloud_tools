@@ -123,9 +123,9 @@ Prices are in euros, excluding tax.
 
 **TVA non applicable, article 293 B du code général des impôts** (VAT not applicable, French small-business exemption). **[to check]** — replaced by "TVA non applicable, article L.223-3 du CIBS" since 1 September 2026, both wordings accepted until the end of 2027.
 
-- **Deposit**: [30] % of the total, on order.
+- **Deposit**: [40] % of the total, on order.
 - **Balance**: on acceptance, invoiced against the acceptance report.
-- **Payment term**: [30] days from the invoice date.
+- **Payment term**: [15] days from the invoice date.
 
 In case of late payment, the following are due automatically and without formal notice:
 

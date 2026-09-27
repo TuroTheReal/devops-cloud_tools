@@ -70,7 +70,7 @@ Détail : chaque prestation avec quantité/prix unitaire ou forfait, taux horair
 | [prestation] | [x]           | [€]              | [€]      | [taux] |
 
 - **Total HT :** [€] · **TVA :** [€] · **Total TTC :** [€]
-- **Acompte :** [ex. 30 % à la signature] · **Solde :** [à la réception sans réserve — voir `pv-reception.md`]
+- **Acompte :** [40 % à la commande] · **Solde :** [à la réception sans réserve — voir `pv-reception.md`] · **Paiement :** [15 jours date de facture]
 
 ## 9. Durée de validité du devis
 
@@ -119,7 +119,7 @@ _Note : la mention manuscrite "devis reçu avant l'exécution des travaux" est u
 - **Scope in :** pipeline GitHub Actions (lint/test/build/deploy), infra as code Terraform (staging + prod), dashboards + alertes.
 - **Scope out :** développement applicatif, migration de données, astreinte 24/7 (→ voir contrat de maintenance séparé).
 - **Critère d'acceptation :** un push sur `main` déploie en staging en < 10 min, rollback documenté testé une fois, alerte qui se déclenche sur un test de charge.
-- **Prix :** forfait 6 000 € HT, acompte 30 % à la signature, solde à la réception sans réserve.
+- **Prix :** forfait 6 000 € HT, acompte 40 % à la commande, solde à la réception sans réserve, paiement à 15 jours.
 - **Micro-entreprise :** "TVA non applicable, art. 293 B du CGI".
 
 </details>

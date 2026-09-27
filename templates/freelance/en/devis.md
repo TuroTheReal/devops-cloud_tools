@@ -71,7 +71,7 @@ Detail: each service with quantity/unit price or fixed fee, hourly rate if appli
 | [service] | [x]             | [€]                  | [€]             | [rate] |
 
 - **Total excl. VAT:** [€] · **VAT:** [€] · **Total incl. VAT:** [€]
-- **Deposit:** [e.g. 30% on signature] · **Balance:** [on acceptance without reservations — see `pv-reception.md`]
+- **Deposit:** [40% on order] · **Balance:** [on acceptance without reservations — see `pv-reception.md`] · **Payment:** [15 days from invoice date]
 
 ## 9. Quote validity period
 
@@ -120,7 +120,7 @@ _Note: the handwritten mention "devis reçu avant l'exécution des travaux" (quo
 - **Scope in:** GitHub Actions pipeline (lint/test/build/deploy), Terraform infrastructure as code (staging + prod), dashboards + alerts.
 - **Scope out:** application development, data migration, 24/7 on-call (→ see separate maintenance contract).
 - **Acceptance criterion:** a push to `main` deploys to staging in < 10 min, documented rollback tested once, an alert firing on a load test.
-- **Price:** fixed fee €6,000 excl. VAT, 30% deposit on signature, balance on acceptance without reservations.
+- **Price:** fixed fee €6,000 excl. VAT, 40% deposit on order, balance on acceptance without reservations, payment within 15 days.
 - **Micro-enterprise:** "TVA non applicable, art. 293 B du CGI" (VAT not applicable, French Tax Code art. 293 B).
 
 </details>

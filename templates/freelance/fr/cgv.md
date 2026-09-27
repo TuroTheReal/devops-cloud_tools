@@ -121,9 +121,9 @@ Les prix sont exprimés en euros, hors taxes.
 
 **TVA non applicable, article 293 B du code général des impôts.** **[à vérifier]** — mention remplacée par « TVA non applicable, article L.223-3 du CIBS » depuis le 1er septembre 2026, les deux formulations étant admises jusqu'à fin 2027.
 
-- **Acompte** : [30] % du montant total, à la commande.
+- **Acompte** : [40] % du montant total, à la commande.
 - **Solde** : à la réception, facturé contre le procès-verbal.
-- **Délai de paiement** : [30] jours à compter de la date de facture.
+- **Délai de paiement** : [15] jours à compter de la date de facture.
 
 En cas de retard, sont exigibles de plein droit et sans mise en demeure :
 
