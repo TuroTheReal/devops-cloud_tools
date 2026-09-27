@@ -12,6 +12,7 @@
 - **Provider:** [name, legal status, address, SIREN/SIRET]
 - **Client:** [name, address]
 - **Date:** [DD/MM/YYYY] · **Quote ref.:** [no.]
+- **Contact:** [email] · [phone]
 - **Offer validity:** [e.g. 30 days]
 - **Status:** [draft / sent / signed]
 
@@ -32,6 +33,20 @@ What is **not** included. The list that prevents the most disputes. Any addition
 
 - [Out of scope 1]
 - [Out of scope 2]
+
+## 3 bis. Options, on quote
+
+> Fill in or delete: what the client can add later, priced now. An option read at decision time sells better than a follow-up three months on.
+
+| Option | What it adds | Price excl. tax |
+| --- | --- | --- |
+| [option] | [what it adds] | [€] |
+
+## 3 ter. Costs and disbursements
+
+Third-party costs needed for the mission, in particular hosting, domain names, licences and subscriptions, **remain the Client's and are taken out in the Client's name**. The Provider does not advance them.
+
+Any on-site travel, if requested, is a separate line in this quote.
 
 ## 4. Deliverables
 

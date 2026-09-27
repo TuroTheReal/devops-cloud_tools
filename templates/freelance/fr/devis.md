@@ -11,6 +11,7 @@
 - **Prestataire :** [nom, statut juridique, adresse, SIREN/SIRET]
 - **Client :** [nom, adresse]
 - **Date :** [JJ/MM/AAAA] · **Réf. devis :** [n°]
+- **Contact :** [email] · [téléphone]
 - **Validité de l'offre :** [ex. 30 jours]
 - **Statut :** [brouillon / envoyé / signé]
 
@@ -31,6 +32,20 @@
 
 - [Hors périmètre 1]
 - [Hors périmètre 2]
+
+## 3 bis. Options, sur devis
+
+> À remplir ou à supprimer : ce que le client peut ajouter plus tard, chiffré dès maintenant. Une option lue au moment de la décision se vend mieux qu'une relance trois mois après.
+
+| Option | Contenu | Prix HT |
+| --- | --- | --- |
+| [option] | [ce qu'elle ajoute] | [€] |
+
+## 3 ter. Frais et débours
+
+Les coûts de services tiers nécessaires à la mission, notamment hébergement, noms de domaine, licences et abonnements, **restent à la charge du Client et sont souscrits à son nom**. Le Prestataire ne les avance pas.
+
+Tout déplacement sur site, s'il est demandé, fait l'objet d'une ligne séparée au présent devis.
 
 ## 4. Livrables
 

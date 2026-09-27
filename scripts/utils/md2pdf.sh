@@ -117,3 +117,23 @@ ENDOFPY
 
 [ -f "$OUT" ] || { echo "Echec de la generation" >&2; exit 1; }
 echo "$OUT  ($(du -h "$OUT" | cut -f1))"
+
+# Garde-fou : un devis parti chez un client avec [nom] dedans, ca ne se
+# rattrape pas. On compte ce qui reste apres avoir retire les blocs d auteur,
+# donc seulement ce que le client verrait vraiment.
+RESTE="$(python3 - "$SRC" <<'ENDOFCHECK'
+import io, re, sys
+t = io.open(sys.argv[1], encoding='utf-8').read()
+t = re.sub(r'^>.*\n?', '', t, flags=re.M)
+t = re.sub(r'<details>.*?</details>\s*', '', t, flags=re.S)
+trous = [m.group(1) for m in re.finditer(r'\[([^\]\[\n]{1,60})\]', t)
+         if not m.group(1).startswith(('http', ' ', 'x]'))]
+print('\n'.join(trous))
+ENDOFCHECK
+)"
+if [ -n "$RESTE" ]; then
+  N="$(printf '%s\n' "$RESTE" | grep -c .)"
+  echo
+  echo "ATTENTION : $N champ(s) non rempli(s), visibles par le client :" >&2
+  printf '%s\n' "$RESTE" | sort -u | sed 's/^/  [/; s/$/]/' >&2
+fi
