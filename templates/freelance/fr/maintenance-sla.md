@@ -3,9 +3,10 @@
 > **Pourquoi ce doc :** cadrer le **support récurrent après la livraison** (ce qui est inclus vs facturé, délais SLA) ; contrat séparé du projet.
 > Contrat de support / maintenance après livraison, avec niveaux de service (SLA).
 > Distingue ce qui est **inclus** (correctif) de ce qui est **facturé en plus** (évolutif), et engage-toi sur des délais que tu peux **tenir** (pas d'engagement héroïque).
+> ⚠️ **Écarté de l'offre le 27/09/2026.** Arthur ne vend ni permanence ni support récurrent, quelle qu'en soit la forme : le seul engagement d'après-livraison est la garantie corrective de 30 jours, déjà incluse dans chaque mission. Ce modèle reste ici au cas où la décision changerait, il ne fait pas partie du cycle commercial actuel.
 > ⚠️ Pas un conseil juridique — voir `SOURCES.md`. Remplace les `[placeholders]`.
 
-## At a glance
+## En bref
 
 - **Prestataire :** [nom, EI, SIRET] · **Client :** [nom]
 - **Objet :** maintenance de [app / périmètre]

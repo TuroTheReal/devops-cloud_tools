@@ -6,7 +6,7 @@
 > Non signé = aucune valeur, le contrat initial reste seul en vigueur (tu ne peux pas facturer le surplus).
 > ⚠️ Pas un conseil juridique — voir `SOURCES.md`. Remplace les `[placeholders]`.
 
-## At a glance
+## En bref
 
 - **Réf. contrat initial :** [n° devis, date, objet]
 - **Parties :** [prestataire] / [client] (mêmes identités que le contrat initial)
@@ -45,11 +45,15 @@ Délais/jalons révisés du fait du changement.
 |-------|---------------|---------------|
 | [jalon] | [date] | [date] |
 
-## 6. Clauses inchangées
+## 6. Acompte sur le supplément
 
-Toutes les autres stipulations du contrat initial **restent en vigueur**.
+Le présent avenant donne lieu à un acompte de **[40] %** du delta, exigible à sa signature. Les travaux supplémentaires démarrent à son encaissement.
 
-## 7. Signatures
+## 7. Clauses inchangées
+
+Toutes les autres stipulations du contrat initial **restent en vigueur**, y compris les conditions générales de vente **version [1.0] du [JJ/MM/AAAA]** annexées au devis initial.
+
+## 8. Signatures
 
 Double signature obligatoire (sans elle, l'avenant n'a aucune valeur).
 

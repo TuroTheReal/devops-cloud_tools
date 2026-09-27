@@ -4,6 +4,7 @@
 > **Why this doc:** to frame the **recurring support after delivery** (what is included vs invoiced, SLA lead times); a contract separate from the project.
 > Support / maintenance contract after delivery, with service levels (SLA).
 > Distinguish what is **included** (corrective) from what is **invoiced on top** (evolutive), and commit to lead times you can **meet** (no heroic commitments).
+> ⚠️ **Dropped from the offer on 27/09/2026.** Arthur sells neither standby nor recurring support in any form: the only post-delivery commitment is the 30-day corrective warranty, already included in every mission. This template stays here in case the decision changes; it is not part of the current commercial cycle.
 > ⚠️ Not legal advice — see `SOURCES.md`. Replace the `[placeholders]`.
 
 ## At a glance

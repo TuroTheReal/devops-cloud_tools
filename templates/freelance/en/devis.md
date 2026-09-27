@@ -5,13 +5,16 @@
 > Commercial proposal (descriptive quote) that defines the scope, deliverables, price and timeline.
 > **Once signed "bon pour accord", it has contractual value: it IS the contract.** Take care with the excluded scope and the acceptance criteria, that is what prevents disputes.
 > ⚠️ Not legal advice. The required mentions depend on your status (micro-enterprise, VAT) and the type of client (B2B/B2C) — check the current rules on service-public.fr / URSSAF (see `SOURCES.md`).
-> Replace the `[placeholders]`. Keep the sections you need, delete the rest.
+> **Work on a copy, never on this file.** `cp devis.md ~/Documents/clients/x/quote-2026-001.md`, then fill the copy.
+> Replace the `[placeholders]`. Keep the sections you need, delete the rest. Leave the `>` lines: they never reach the PDF.
+> **Export:** `scripts/utils/md2pdf.sh your-copy.md` — it warns if any placeholder a client would see is left.
 
 ## At a glance
 
 - **Provider:** [name, legal status, address, SIREN/SIRET]
 - **Client:** [name, address]
 - **Date:** [DD/MM/YYYY] · **Quote ref.:** [no.]
+- **Contact:** [email] · [phone]
 - **Offer validity:** [e.g. 30 days]
 - **Status:** [draft / sent / signed]
 
@@ -32,6 +35,20 @@ What is **not** included. The list that prevents the most disputes. Any addition
 
 - [Out of scope 1]
 - [Out of scope 2]
+
+## 3 bis. Options, on quote
+
+> Fill in or delete: what the client can add later, priced now. An option read at decision time sells better than a follow-up three months on.
+
+| Option | What it adds | Price excl. tax |
+| --- | --- | --- |
+| [option] | [what it adds] | [€] |
+
+## 3 ter. Costs and disbursements
+
+Third-party costs needed for the mission, in particular hosting, domain names, licences and subscriptions, **remain the Client's and are taken out in the Client's name**. The Provider does not advance them.
+
+Any on-site travel, if requested, is a separate line in this quote.
 
 ## 4. Deliverables
 
@@ -71,7 +88,7 @@ Detail: each service with quantity/unit price or fixed fee, hourly rate if appli
 | [service] | [x]             | [€]                  | [€]             | [rate] |
 
 - **Total excl. VAT:** [€] · **VAT:** [€] · **Total incl. VAT:** [€]
-- **Deposit:** [e.g. 30% on signature] · **Balance:** [on acceptance without reservations — see `pv-reception.md`]
+- **Deposit:** [40% on order] · **Balance:** [on acceptance without reservations — see `pv-reception.md`] · **Payment:** [15 days from invoice date]
 
 ## 9. Quote validity period
 
@@ -80,7 +97,7 @@ Detail: each service with quantity/unit price or fixed fee, hourly rate if appli
 ## 10. Conditions
 
 - **Modification:** any change of scope is the subject of a signed **avenant** (contract amendment — **art. 1193 Code civil**, French Civil Code art. 1193). See `avenant.md`.
-- **T&Cs:** [attached / referenced] — late-payment penalties, warranties, **transfer of intellectual property on full payment**, liability.
+- **T&Cs (CGV):** attached to this quote, **version [1.0] dated [DD/MM/YYYY]** (see `cgv.md`). The Client acknowledges having read them. They carry late-payment interest, acceptance, warranty, **assignment of intellectual property on payment in full** and the liability cap. **Citing the version is essential**: it is what proves which one was accepted.
 
 ## 11. Signature — bon pour accord
 
@@ -120,7 +137,7 @@ _Note: the handwritten mention "devis reçu avant l'exécution des travaux" (quo
 - **Scope in:** GitHub Actions pipeline (lint/test/build/deploy), Terraform infrastructure as code (staging + prod), dashboards + alerts.
 - **Scope out:** application development, data migration, 24/7 on-call (→ see separate maintenance contract).
 - **Acceptance criterion:** a push to `main` deploys to staging in < 10 min, documented rollback tested once, an alert firing on a load test.
-- **Price:** fixed fee €6,000 excl. VAT, 30% deposit on signature, balance on acceptance without reservations.
+- **Price:** fixed fee €6,000 excl. VAT, 40% deposit on order, balance on acceptance without reservations, payment within 15 days.
 - **Micro-enterprise:** "TVA non applicable, art. 293 B du CGI" (VAT not applicable, French Tax Code art. 293 B).
 
 </details>

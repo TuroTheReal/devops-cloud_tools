@@ -13,7 +13,7 @@
 - **Invoice no.:** [continuous chronological sequence, no gaps — e.g. 2026-001]
 - **Issue date:** [DD/MM/YYYY] · **Service date:** [DD/MM/YYYY]
 - **Ref.:** quote no. [x] · PV de réception (acceptance report) of [date]
-- **Due:** [e.g. 30 days / on receipt]
+- **Due:** [15 days from invoice date]
 
 ## Provider
 
@@ -43,7 +43,7 @@ SIRET [xxxxxxxxxxxxxx] (French business registration number) · [legal form]
 
 ## Payment
 
-- **Due:** [date / on receipt]. *(B2B legal cap: 30 days, or 45 days end of month / 60 days if agreed.)*
+- **Due:** [date]. *(the law caps at 60 days, or 45 days end of month; it sets no minimum, hence the 15 days in the general terms.)*
 - **Method:** bank transfer — [IBAN / BIC].
 - **Late-payment penalties:** [rate] % *(≥ 3× the legal interest rate; if no rate is stated, ECB policy rate + 10 points. Revised each half-year — keep it as a variable.)*
 - **Fixed recovery indemnity: €40** *(B2B, per unpaid invoice — **art. L441-10 et D441-5 du Code de commerce**, French Commercial Code art. L441-10 and D441-5.)*
@@ -90,6 +90,6 @@ Reform under way, current legal schedule (already postponed in the past → to w
 
 - Service: fixed fee "CI/CD pipeline + monitoring" — €6,000 net.
 - **Total net payable: €6,000.** TVA non applicable, art. 293 B du CGI (VAT not applicable, French Tax Code art. 293 B).
-- Due: 30 days. Penalties: [rate] % + €40 indemnity. No discount for early payment.
+- Due: 15 days. Penalties: [rate] % + €40 indemnity. No discount for early payment.
 
 </details>

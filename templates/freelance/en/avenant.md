@@ -46,11 +46,15 @@ Revised lead times/milestones resulting from the change.
 |-----------|----------|----------|
 | [milestone] | [date] | [date] |
 
-## 6. Unchanged clauses
+## 6. Deposit on the additional work
 
-All other stipulations of the initial contract **remain in force**.
+This amendment gives rise to a deposit of **[40] %** of the delta, due on signature. The additional work starts when it clears.
 
-## 7. Signatures
+## 7. Unchanged clauses
+
+All other stipulations of the initial contract **remain in force**, including the general terms of sale **version [1.0] dated [DD/MM/YYYY]** attached to the initial quote.
+
+## 8. Signatures
 
 Dual signature mandatory (without it, the avenant has no value).
 

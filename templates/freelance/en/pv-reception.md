@@ -61,6 +61,13 @@ Defects/objections raised. Acceptance **with reservations** preserves the client
 - [ ] **With reservations** — accepted except for the points in §5.
 - [ ] **Refusal** — non-compliant, reasons: [.…].
 
+## 6 bis. What acceptance triggers
+
+- **Balance due**: [amount] €, invoiced against this report, payable within [15] days.
+- **Corrective warranty**: [30] days from [acceptance date], on the delivered scope, during business hours.
+- **Transfer of responsibility**: from this date, operation, monitoring and maintenance of the systems are the Client's.
+- **Revocation of the Provider's access**: carried out by the Client on [date]. Failing signature of this report and a written reservation within the period set out in the general terms, acceptance is deemed granted without reservation.
+
 ## 7. Signatures
 
 - Client: [name, date, signature]
