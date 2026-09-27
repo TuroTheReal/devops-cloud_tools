@@ -4,7 +4,9 @@
 > Proposition commerciale (devis descriptif) qui définit le périmètre, les livrables, le prix et les délais.
 > **Une fois signée "bon pour accord", elle a valeur contractuelle : c'est LE contrat.** Soigne le périmètre exclu et les critères d'acceptation, c'est ce qui évite les litiges.
 > ⚠️ Pas un conseil juridique. Les mentions dépendent de ton statut (micro-entreprise, TVA) et du type de client (B2B/B2C) — vérifie l'à-jour sur service-public.fr / URSSAF (voir `SOURCES.md`).
-> Remplace les `[placeholders]`. Garde les rubriques utiles, supprime le reste.
+> **Travaille sur une copie, jamais sur ce fichier.** `cp devis.md ~/Documents/clients/x/devis-2026-001.md`, puis remplis la copie.
+> Remplace les `[crochets]`. Garde les rubriques utiles, supprime le reste. Laisse les lignes `>` : elles ne partent pas au PDF.
+> **Export :** `scripts/utils/md2pdf.sh ta-copie.md` — il avertit s'il reste des crochets visibles par le client.
 
 ## En bref
 

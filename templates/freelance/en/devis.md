@@ -5,7 +5,9 @@
 > Commercial proposal (descriptive quote) that defines the scope, deliverables, price and timeline.
 > **Once signed "bon pour accord", it has contractual value: it IS the contract.** Take care with the excluded scope and the acceptance criteria, that is what prevents disputes.
 > ⚠️ Not legal advice. The required mentions depend on your status (micro-enterprise, VAT) and the type of client (B2B/B2C) — check the current rules on service-public.fr / URSSAF (see `SOURCES.md`).
-> Replace the `[placeholders]`. Keep the sections you need, delete the rest.
+> **Work on a copy, never on this file.** `cp devis.md ~/Documents/clients/x/quote-2026-001.md`, then fill the copy.
+> Replace the `[placeholders]`. Keep the sections you need, delete the rest. Leave the `>` lines: they never reach the PDF.
+> **Export:** `scripts/utils/md2pdf.sh your-copy.md` — it warns if any placeholder a client would see is left.
 
 ## At a glance
 

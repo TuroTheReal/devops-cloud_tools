@@ -12,6 +12,15 @@
 #   2. converts the remaining Markdown to standalone HTML
 #   3. prints that HTML to PDF with headless Chrome
 #
+# REGLE : travailler sur une COPIE, jamais sur le modele du depot.
+#   cp templates/freelance/fr/devis.md ~/Documents/clients/x/devis-2026-001.md
+#   puis remplir les [crochets] de la copie, puis generer.
+#
+# Conventions de ces modeles, dont depend le nettoyage :
+#   - une ligne commencant par '>' est une consigne d auteur, jamais du
+#     contenu contractuel : elle est retiree. Ne pas citer avec '>'.
+#   - un bloc <details> est une annexe interne : il est retire.
+#
 # Usage:
 #   ./md2pdf.sh templates/freelance/fr/cgv.md
 #   ./md2pdf.sh templates/freelance/fr/cgv.md ~/Documents/CGV-v1.0.pdf
@@ -48,6 +57,7 @@ def inline(x):
     x = re.sub(r'`([^`]+)`', r'<code>\1</code>', x)
     x = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', x)
     x = re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)', r'<em>\1</em>', x)
+    x = re.sub(r'(?<![\w_])_([^_\n]+)_(?![\w_])', r'<em>\1</em>', x)
     x = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', x)
     return x
 
@@ -116,6 +126,8 @@ ENDOFPY
   --print-to-pdf="$OUT" "file://$HTML" >/dev/null 2>&1
 
 [ -f "$OUT" ] || { echo "Echec de la generation" >&2; exit 1; }
+TAILLE=$(wc -c < "$OUT" | tr -d " ")
+[ "$TAILLE" -gt 8000 ] || { echo "PDF suspect, $TAILLE octets : conversion probablement vide" >&2; exit 1; }
 echo "$OUT  ($(du -h "$OUT" | cut -f1))"
 
 # Garde-fou : un devis parti chez un client avec [nom] dedans, ca ne se
