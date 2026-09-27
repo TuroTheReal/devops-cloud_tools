@@ -79,9 +79,17 @@ The timelines set out in the quote run from formation of the contract, provided 
 
 They are indicative unless expressly stated as firm in the quote.
 
+## 8 bis. Suspension caused by the Client
+
+If the Client fails to provide the required access, information or validations for **[15] consecutive business days**, the mission is deemed suspended by the Client.
+
+The Provider may then invoice the work performed as at the suspension date, and is no longer bound by the original timeline. Resumption is subject to a new milestone agreed in writing, subject to the Provider's availability.
+
+Beyond **[60] days** of suspension, the Provider may terminate the mission; work performed remains payable and the deposit remains acquired by the Provider.
+
 ## 9. Acceptance
 
-On completion, the Provider hands over the deliverables and the Client has **[10] business days** to check them against the acceptance criteria in the quote.
+On completion, the Provider hands over the deliverables and the Client has **[8] business days** to check them against the acceptance criteria in the quote.
 
 The Client signs an acceptance report, with or without reservations. **Failing a written and reasoned reservation within that period, acceptance is deemed granted without reservation.**
 
@@ -95,7 +103,7 @@ Excluded from the warranty:
 
 - enhancements and new requests, which require an amendment;
 - malfunctions resulting from a change made by the Client or a third party;
-- failures of third-party services, software or hardware;
+- failures **and changes** in third-party services, software or hardware;
 - day-to-day operation, which is the Client's responsibility after handover.
 
 Warranty work is carried out during business hours.
@@ -164,11 +172,17 @@ The Provider declares holding professional indemnity insurance covering its acti
 
 ## 15. Confidentiality
 
-Each party undertakes not to disclose the other's confidential information, during the mission and for **[3] years** afterwards.
-
-Information that is public, already known, or whose disclosure is required by law is not confidential.
+Each party undertakes not to disclose the other's confidential information, during the mission and for **[2] years** afterwards.
 
 The Provider undertakes in particular not to disclose any information about the architecture, volumes, data or vulnerabilities of the Client's systems.
+
+The following are not confidential:
+
+- information that is public, already known, or whose disclosure is required by law;
+- **the Provider's methods, tools, scripts and know-how**, including where they were used during the mission;
+- **the existence of the mission and its non-technical description**, whose communication remains governed by §19.
+
+This clause does not stand in the way of §19.
 
 ## 16. Personal data
 
@@ -238,6 +252,19 @@ The parties will seek an amicable settlement of any dispute. Failing agreement w
 **[to check]** — a clause designating a specific court is only valid between commerçants (merchants) under article 48 of the French code of civil procedure. An intellectual service provided as an entrepreneur individuel does not necessarily fall into that category: have a lawyer decide before naming a specific court.
 
 ---
+
+<details>
+<summary><b>How far you can tilt it your way</b> <i>(internal note, delete before sending)</i></summary>
+
+Standard terms imposed without negotiation form a **contrat d'adhésion**. Article 1171 of the French civil code deems **unwritten** any clause creating a significant imbalance, and article L.442-1 of the commercial code makes the party imposing it liable, between professionals.
+
+Practical consequence: tilting further does not protect you more, it makes the **whole clause fall away** and you are left with nothing. The liability cap is the clearest example: capped at the mission amount it holds, excluded entirely it collapses.
+
+Already tilted as far as the law allows: best-efforts obligation (§5), backups on the Client (§6), tacit acceptance (§9), liability cap (§13), reserved reusable tooling (§12.2).
+
+Where not to go: excluding all liability, removing the warranty, requiring a 100 % deposit, forbidding any reservation at acceptance. Each of those would backfire.
+
+</details>
 
 <details>
 <summary><b>What each clause protects</b> <i>(memo, delete before sending)</i></summary>

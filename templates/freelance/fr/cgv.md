@@ -77,9 +77,17 @@ Les délais figurant au devis courent à compter de la formation du contrat, sou
 
 Ils sont donnés à titre indicatif, sauf lorsqu'ils sont expressément qualifiés de fermes au devis.
 
+## 8 bis. Suspension du fait du Client
+
+Si le Client ne fournit pas les accès, informations ou validations nécessaires pendant **[15] jours ouvrés** consécutifs, la mission est réputée suspendue de son fait.
+
+Le Prestataire peut alors facturer les prestations exécutées à la date de suspension, et n'est plus tenu par le planning initial. La reprise fait l'objet d'un nouveau jalon convenu par écrit, sous réserve de ses disponibilités.
+
+Au-delà de **[60] jours** de suspension, le Prestataire peut mettre fin à la mission ; les prestations exécutées restent dues et l'acompte lui reste acquis.
+
 ## 9. Réception
 
-À l'issue de la prestation, le Prestataire remet les livrables au Client, qui dispose de **[10] jours ouvrés** pour les vérifier au regard des critères d'acceptation du devis.
+À l'issue de la prestation, le Prestataire remet les livrables au Client, qui dispose de **[8] jours ouvrés** pour les vérifier au regard des critères d'acceptation du devis.
 
 Le Client signe un procès-verbal de réception, avec ou sans réserve. **À défaut de réserve écrite et motivée dans ce délai, la réception est réputée acquise sans réserve.**
 
@@ -93,7 +101,7 @@ Sont exclus de la garantie :
 
 - les évolutions et demandes nouvelles, qui relèvent d'un avenant ;
 - les dysfonctionnements résultant d'une modification opérée par le Client ou par un tiers ;
-- les défaillances des services, logiciels ou matériels tiers ;
+- les défaillances **et les évolutions** des services, logiciels ou matériels tiers ;
 - l'exploitation courante, qui relève du Client après passation.
 
 Les interventions au titre de la garantie ont lieu en heures ouvrées.
@@ -162,11 +170,17 @@ Le Prestataire déclare être titulaire d'une assurance de responsabilité civil
 
 ## 15. Confidentialité
 
-Chaque partie s'engage à ne pas divulguer les informations confidentielles de l'autre, pendant la mission et **[3] ans** après son terme.
-
-Ne sont pas confidentielles les informations publiques, déjà connues, ou dont la divulgation est imposée par la loi.
+Chaque partie s'engage à ne pas divulguer les informations confidentielles de l'autre, pendant la mission et **[2] ans** après son terme.
 
 Le Prestataire s'engage en particulier à ne divulguer aucune information relative à l'architecture, aux volumétries, aux données ou aux failles du système du Client.
+
+Ne sont pas confidentielles :
+
+- les informations publiques, déjà connues, ou dont la divulgation est imposée par la loi ;
+- **les méthodes, outils, scripts et savoir-faire du Prestataire**, y compris lorsqu'ils ont été mis en œuvre pendant la mission ;
+- **le fait même de la mission et sa description non technique**, dont la communication reste régie par le §19.
+
+La présente clause ne fait pas obstacle à l'application du §19.
 
 ## 16. Données personnelles
 
@@ -236,6 +250,19 @@ Les parties s'efforcent de résoudre tout différend à l'amiable. À défaut d'
 **[à vérifier]** — une clause attribuant compétence à un tribunal déterminé n'est valable qu'entre commerçants (article 48 du code de procédure civile). Une prestation intellectuelle exercée en entrepreneur individuel n'entre pas nécessairement dans cette catégorie : faire trancher par un juriste avant d'ajouter un tribunal nommément désigné.
 
 ---
+
+<details>
+<summary><b>Jusqu'où on peut pencher en sa faveur</b> <i>(note interne, à supprimer avant envoi)</i></summary>
+
+Des CGV imposées sans négociation sont un **contrat d'adhésion**. L'article 1171 du code civil y répute **non écrite** toute clause créant un déséquilibre significatif, et l'article L.442-1 du code de commerce engage la responsabilité de celui qui l'impose entre professionnels.
+
+Conséquence pratique : trop pencher ne protège pas davantage, ça fait **tomber la clause entière** et on se retrouve sans rien. Le plafond de responsabilité est le meilleur exemple : plafonné au montant de la mission il tient, exclu totalement il saute.
+
+Où c'est déjà penché autant que la loi le permet : obligation de moyens (§5), sauvegardes à la charge du Client (§6), réception tacite (§9), plafond de responsabilité (§13), réserve des outils réutilisables (§12.2).
+
+Où il ne faut pas aller : exclure toute responsabilité, supprimer la garantie, imposer un acompte de 100 %, interdire toute réserve à la réception. Chacune se retournerait.
+
+</details>
 
 <details>
 <summary><b>Ce que chaque clause protège</b> <i>(aide-mémoire, à supprimer avant envoi)</i></summary>
