@@ -1,6 +1,6 @@
 # Sources & caveats — FR freelance templates
 
-Provenance + legal pitfalls for `devis` · `avenant` · `pv-reception` · `facture` · `avoir` · `maintenance-sla`.
+Provenance + legal pitfalls for `cgv` · `devis` · `avenant` · `pv-reception` · `facture` · `avoir` · `maintenance-sla`.
 France first. **Not legal advice** — the dated rules below go stale, recheck before use.
 
 ## Caveats (what costs you)

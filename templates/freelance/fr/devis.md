@@ -79,7 +79,7 @@ Détail : chaque prestation avec quantité/prix unitaire ou forfait, taux horair
 ## 10. Conditions
 
 - **Modification :** tout changement de périmètre fait l'objet d'un avenant signé (art. 1193 Code civil). Voir `avenant.md`.
-- **CGV :** [annexées / référencées] — pénalités de retard, garanties, **transfert de propriété intellectuelle à paiement complet**, responsabilité.
+- **CGV :** annexées au présent devis, **version [1.0] du [JJ/MM/AAAA]** (voir `cgv.md`). Le Client reconnaît en avoir pris connaissance. Elles portent les pénalités de retard, la réception, la garantie, la **cession de propriété intellectuelle à paiement intégral** et le plafond de responsabilité. **Citer la version est indispensable** : c'est ce qui permet de prouver laquelle a été acceptée.
 
 ## 11. Signature — bon pour accord
 

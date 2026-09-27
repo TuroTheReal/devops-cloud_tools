@@ -80,7 +80,7 @@ Detail: each service with quantity/unit price or fixed fee, hourly rate if appli
 ## 10. Conditions
 
 - **Modification:** any change of scope is the subject of a signed **avenant** (contract amendment — **art. 1193 Code civil**, French Civil Code art. 1193). See `avenant.md`.
-- **T&Cs:** [attached / referenced] — late-payment penalties, warranties, **transfer of intellectual property on full payment**, liability.
+- **T&Cs (CGV):** attached to this quote, **version [1.0] dated [DD/MM/YYYY]** (see `cgv.md`). The Client acknowledges having read them. They carry late-payment interest, acceptance, warranty, **assignment of intellectual property on payment in full** and the liability cap. **Citing the version is essential**: it is what proves which one was accepted.
 
 ## 11. Signature — bon pour accord
 
