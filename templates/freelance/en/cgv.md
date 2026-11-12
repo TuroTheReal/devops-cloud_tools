@@ -63,7 +63,7 @@ The following are excluded from every mission unless stated otherwise in the quo
 
 The Provider has an **obligation de moyens** (best-efforts obligation), not an obligation of result. Work is performed according to professional standards and the state of knowledge at the time of performance.
 
-Where the service or its deliverables rely on an artificial intelligence service, the results of that service vary from one run to the next and change with its vendor's updates. Conformity is assessed at acceptance, against the acceptance criteria of the quote. Beyond that, what such a service produces is a preparation that the Client checks before any use.
+Where the service or its deliverables rely on an artificial intelligence service, the Client acknowledges that the results produced by that service are not deterministic: they may vary from one run to the next and change with its vendor's updates. Conformity of the deliverables is assessed at acceptance, against the acceptance criteria in the quote. Results produced by that service after acceptance are proposals, which the Client checks before any use and for which the Client remains responsible.
 
 The Provider informs the Client without delay of any event likely to affect the scope, the timeline or the price.
 
@@ -115,6 +115,7 @@ Excluded from the warranty:
 - enhancements and new requests, which require an amendment;
 - malfunctions resulting from a change made by the Client or a third party;
 - failures **and changes** in third-party services, software or hardware;
+- variation in the results of an artificial intelligence service after acceptance, where the acceptance criteria in the quote were met;
 - day-to-day operation, which is the Client's responsibility after handover.
 
 Warranty work is carried out during business hours.

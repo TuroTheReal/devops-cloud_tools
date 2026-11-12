@@ -61,7 +61,7 @@ Sont exclus de toute mission, sauf mention contraire au devis :
 
 Le Prestataire est tenu d'une **obligation de moyens**, non de résultat. Il exécute la prestation selon les règles de l'art et l'état des connaissances à la date d'exécution.
 
-Lorsque la prestation ou ses livrables font appel à un service d'intelligence artificielle, les résultats de ce service varient d'une exécution à l'autre et évoluent avec les mises à jour de son éditeur. La conformité s'apprécie à la réception, au regard des critères d'acceptation du devis. Au-delà, ce que produit un tel service est une préparation que le Client vérifie avant tout usage.
+Lorsque la prestation ou ses livrables reposent sur un service d'intelligence artificielle, le Client reconnaît que les résultats produits par ce service ne sont pas déterministes : ils peuvent varier d'une exécution à l'autre et évoluer avec les mises à jour de son éditeur. La conformité des livrables s'apprécie à la réception, au regard des critères d'acceptation du devis. Les résultats produits par ce service après la réception sont des propositions, que le Client vérifie avant tout usage et dont il garde la responsabilité.
 
 Il informe le Client sans délai de tout événement susceptible d'affecter le périmètre, le délai ou le prix.
 
@@ -113,6 +113,7 @@ Sont exclus de la garantie :
 - les évolutions et demandes nouvelles, qui relèvent d'un avenant ;
 - les dysfonctionnements résultant d'une modification opérée par le Client ou par un tiers ;
 - les défaillances **et les évolutions** des services, logiciels ou matériels tiers ;
+- la variation des résultats d'un service d'intelligence artificielle après la réception, dès lors que les critères d'acceptation du devis étaient remplis ;
 - l'exploitation courante, qui relève du Client après passation.
 
 Les interventions au titre de la garantie ont lieu en heures ouvrées.
