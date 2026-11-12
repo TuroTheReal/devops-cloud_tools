@@ -61,6 +61,8 @@ Sont exclus de toute mission, sauf mention contraire au devis :
 
 Le Prestataire est tenu d'une **obligation de moyens**, non de résultat. Il exécute la prestation selon les règles de l'art et l'état des connaissances à la date d'exécution.
 
+Lorsque la prestation ou ses livrables font appel à un service d'intelligence artificielle, les résultats de ce service varient d'une exécution à l'autre et évoluent avec les mises à jour de son éditeur. La conformité s'apprécie à la réception, au regard des critères d'acceptation du devis. Au-delà, ce que produit un tel service est une préparation que le Client vérifie avant tout usage.
+
 Il informe le Client sans délai de tout événement susceptible d'affecter le périmètre, le délai ou le prix.
 
 ## 6. Obligations du Client

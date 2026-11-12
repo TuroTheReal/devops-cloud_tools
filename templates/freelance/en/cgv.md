@@ -63,6 +63,8 @@ The following are excluded from every mission unless stated otherwise in the quo
 
 The Provider has an **obligation de moyens** (best-efforts obligation), not an obligation of result. Work is performed according to professional standards and the state of knowledge at the time of performance.
 
+Where the service or its deliverables rely on an artificial intelligence service, the results of that service vary from one run to the next and change with its vendor's updates. Conformity is assessed at acceptance, against the acceptance criteria of the quote. Beyond that, what such a service produces is a preparation that the Client checks before any use.
+
 The Provider informs the Client without delay of any event likely to affect the scope, the timeline or the price.
 
 ## 6. Client's obligations
