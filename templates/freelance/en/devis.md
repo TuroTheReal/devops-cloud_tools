@@ -65,7 +65,7 @@ Per deliverable: what it is, the format, who validates it, the quality standard,
 - [Criterion 1, verifiable]
 - [Criterion 2, verifiable]
 
-## 6. Assumptions & prerequisites
+## 6. Prerequisites and limits
 
 What the mission assumes on the client's side: access, environments, data, points of contact. If this changes, the estimate changes.
 
