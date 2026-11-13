@@ -64,7 +64,7 @@ Tout déplacement sur site, s'il est demandé, fait l'objet d'une ligne séparé
 - [Critère 1, vérifiable]
 - [Critère 2, vérifiable]
 
-## 6. Hypothèses & prérequis
+## 6. Prérequis et limites
 
 > À remplir : ce que la mission suppose côté client, accès, environnements, données, interlocuteur. Si ça change, l'estimation change.
 
