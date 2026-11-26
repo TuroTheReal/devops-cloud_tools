@@ -37,7 +37,7 @@ Le contrat est formé des documents suivants, par ordre de priorité décroissan
 1. les avenants signés, du plus récent au plus ancien ;
 2. le devis signé « bon pour accord » ;
 3. les présentes conditions générales, partie 2 (chapitre de l'offre indiquée au devis), puis partie 1 ;
-4. le cas échéant, l'accord de confidentialité et le contrat de sous-traitance de données personnelles.
+4. le cas échéant, l'accord de confidentialité et l'accord de traitement des données (article 28 du RGPD).
 
 En cas de contradiction, le document de rang supérieur prévaut.
 
@@ -213,7 +213,7 @@ La présente clause ne fait pas obstacle à l'application du §19.
 
 Lorsque la mission conduit le Prestataire à traiter des données personnelles pour le compte du Client, celui-ci agit en qualité de responsable de traitement et le Prestataire en qualité de sous-traitant au sens de l'article 28 du règlement (UE) 2016/679.
 
-Un **contrat de sous-traitance distinct** est alors signé avant tout accès. À défaut, le Prestataire n'accède à aucune donnée personnelle.
+Un **accord de traitement des données (article 28 du RGPD)** distinct est alors signé avant tout accès (modèle `dpa.md`). À défaut, le Prestataire n'accède à aucune donnée personnelle.
 
 Le Prestataire informe le Client sans délai de toute violation de données personnelles dont il a connaissance, afin de lui permettre de remplir ses propres obligations de notification.
 
@@ -344,7 +344,7 @@ Audit, mise en production, monitoring, industrialisation des déploiements, migr
 
 **C.1 Périmètre.** Paramétrage, dans le compte du Client, de son assistant d'intelligence artificielle : préférences, document de contexte, instructions, connecteurs autorisés par le Client, et les tâches listées au devis, chacune avec sa taille (simple ou avancée) et son déclenchement (à la demande ou programmé). La visio d'installation est une remise de ce qui a été installé ; elle ne constitue pas une action de formation.
 
-**C.2 Prérequis.** Avant la visio d'installation, le Client a créé à son nom et à ses frais le compte et l'abonnement du service d'intelligence artificielle, décidé du réglage d'entraînement des modèles (§16 ter) et préparé son outil de notes. Le contrat de sous-traitance de données personnelles (§16) est signé avant tout accès à une messagerie.
+**C.2 Prérequis.** Avant la visio d'installation, le Client a créé à son nom et à ses frais le compte et l'abonnement du service d'intelligence artificielle, décidé du réglage d'entraînement des modèles (§16 ter) et préparé son outil de notes. L'accord de traitement des données (§16) est signé avant tout accès à une messagerie.
 
 **C.3 Tests.** Les tâches sont construites et testées sur des données fictives. Sans test sur les outils et les données réels du Client, et parce que les résultats d'une intelligence artificielle varient, le Prestataire ne peut garantir qu'une tâche soit parfaite dès l'installation : des ajustements sont à prévoir. Ils sont faits pendant la visio d'installation et au point d'ajustement.
 
@@ -407,7 +407,7 @@ Où il ne faut pas aller : exclure toute responsabilité, supprimer la garantie,
 - [ ] Relecture par un juriste, au moins une fois (content-ops#21)
 - [ ] Responsabilité civile professionnelle souscrite (§14 la déclare, content-ops#27)
 - [ ] Accord de confidentialité type prêt (§2)
-- [ ] Contrat de sous-traitance RGPD prêt (§16, content-ops#25)
+- [ ] Accord de traitement des données prêt (§16, `dpa.md`, content-ops#25)
 - [ ] Cahier de recette type prêt (§9)
 - [ ] Journal d'intervention type prêt (§17)
 - [ ] **Adresse complète renseignée au §1.** Un contrat a besoin d'une adresse où notifier : sans elle, les mises en demeure des §11, §22 et §23 n'ont pas de destinataire.

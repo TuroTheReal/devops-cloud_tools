@@ -215,7 +215,7 @@ This clause does not prevent the application of §19.
 
 Where the mission leads the Provider to process personal data on behalf of the Client, the Client acts as controller and the Provider as processor within the meaning of article 28 of Regulation (EU) 2016/679.
 
-A **separate data processing agreement** is then signed before any access. Failing this, the Provider accesses no personal data.
+A separate **data processing agreement (article 28 GDPR)** is then signed before any access (template `dpa.md`). Failing this, the Provider accesses no personal data.
 
 The Provider informs the Client without delay of any personal data breach it becomes aware of, so that the Client can meet its own notification obligations.
 
@@ -409,7 +409,7 @@ Where not to go: excluding all liability, removing the warranty, requiring a 100
 - [ ] Lawyer review, at least once (content-ops#21)
 - [ ] Professional liability insurance taken out (§14 declares it, content-ops#27)
 - [ ] Standard non-disclosure agreement ready (§2)
-- [ ] GDPR data processing agreement ready (§16, content-ops#25)
+- [ ] Data processing agreement ready (§16, `dpa.md`, content-ops#25)
 - [ ] Standard acceptance test plan ready (§9)
 - [ ] Standard intervention log ready (§17)
 - [ ] **Full address filled in §1.** A contract needs an address for notices: without it, the formal notices of §11, §22 and §23 have no recipient.
