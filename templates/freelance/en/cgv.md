@@ -9,7 +9,7 @@
 > ⚠️ Not legal advice. Have a lawyer review this once before your first mission (content-ops#21). Points marked **[to check]** rely on rules that change or depend on your status.
 > Replace the `[placeholders]`. Delete this block before sending.
 
-**Version 1.0 dated 25/11/2026**, applicable to any quote issued from this date.
+**Version 1.0 dated 26/11/2026**, applicable to any quote issued from this date.
 
 ---
 
@@ -39,13 +39,13 @@ The contract consists of the following documents, in decreasing order of priorit
 1. signed amendments (avenants), from the most recent to the oldest;
 2. the quote signed "bon pour accord";
 3. these general terms, part 2 (chapter of the offer named on the quote), then part 1;
-4. where applicable, the non-disclosure agreement and the personal data processing agreement.
+4. the personal data processing agreement attached to the quote and, where applicable, the non-disclosure agreement.
 
 In case of contradiction, the higher-ranking document prevails.
 
 ## 3. Formation of the contract
 
-The quote is valid for **[30] days** from its issue. The contract is formed on the date the Provider receives the quote signed with the handwritten mention "bon pour accord", **and the deposit is cashed**.
+The quote is valid for **[30] days** from its issue. The contract is formed on the date the Provider receives the quote signed with the mention "bon pour accord", **and the deposit is cashed**.
 
 No service starts before both conditions are met.
 
@@ -132,7 +132,7 @@ Warranty work takes place during business hours.
 
 Prices are in euros, excluding taxes.
 
-**TVA non applicable, article L.223-3 du code des impositions sur les biens et services** (VAT not applicable, article L.223-3 of the French code on taxation of goods and services). **[to check]** This mention replaces "TVA non applicable, article 293 B du code général des impôts" since 1 September 2026, both wordings being accepted until the end of 2027.
+**TVA non applicable, article 293 B du code général des impôts** (VAT not applicable, article 293 B of the French Tax Code).
 
 - **Deposit and balance**: according to the schedule of the offer's chapter (part 2), unless a different schedule is written in the quote.
 - **Payment term**: [15] days from the invoice date.
@@ -215,7 +215,7 @@ This clause does not prevent the application of §19.
 
 Where the mission leads the Provider to process personal data on behalf of the Client, the Client acts as controller and the Provider as processor within the meaning of article 28 of Regulation (EU) 2016/679.
 
-A separate **data processing agreement (article 28 GDPR)** is then signed before any access (template `dpa.md`). Failing this, the Provider accesses no personal data.
+A **data processing agreement (article 28 GDPR)** is attached to every quote; signing the quote accepts this agreement. Failing this, the Provider accesses no personal data.
 
 The Provider informs the Client without delay of any personal data breach it becomes aware of, so that the Client can meet its own notification obligations.
 
@@ -304,15 +304,15 @@ These terms are governed by **French law**.
 
 The parties shall endeavour to settle any dispute amicably. Failing agreement within [30] days, the dispute is brought before the competent French courts.
 
-**[to check]** A clause conferring jurisdiction on a designated court is only valid between traders (commerçants, article 48 of the French code of civil procedure). An intellectual service provided as a sole proprietor does not necessarily fall into this category: have a lawyer decide before adding a named court.
-
 ---
 
 # Part 2: terms specific to each offer
 
-Only the chapter of the offer named on the quote applies. It supplements part 1 and prevails over it in case of contradiction.
+Only the chapter of the offer named on the quote applies. It supplements part 1 and prevails over it in case of contradiction. The chapters of the other offers have no effect and create no right for the Client.
 
 ## A. Infrastructure missions
+
+*This chapter only applies if the quote is for an infrastructure mission.*
 
 Audit, go-live, monitoring, deployment automation, production migration, infrastructure as code.
 
@@ -325,6 +325,8 @@ Audit, go-live, monitoring, deployment automation, production migration, infrast
 **A.4 After handover.** The runbook and documentation are delivered at handover. Operation, monitoring and on-call duty fall to the Client (§18).
 
 ## B. Website redesign
+
+*This chapter only applies if the quote is for a website redesign.*
 
 **B.1 Base scope.** New interface on the Client's existing texts and photos, mobile version included; existing functions reproduced as they are; existing addresses (URLs) kept; technical search engine optimisation; legal notice page kept, or created from the Client's information; go-live with a reversible switch of the domain name, without changing the Client's mailbox unless agreed in writing. The options sold are listed in the quote.
 
@@ -344,9 +346,11 @@ Audit, go-live, monitoring, deployment automation, production migration, infrast
 
 ## C. Setting up an artificial intelligence environment
 
+*This chapter only applies if the quote is for setting up an artificial intelligence environment.*
+
 **C.1 Scope.** Configuration, in the Client's account, of its artificial intelligence assistant: preferences, context document, instructions, connectors authorised by the Client, and the tasks listed in the quote, each with its size (simple or advanced) and its trigger (on demand or scheduled). The installation call is a handover of what was installed; it is not a training action.
 
-**C.2 Prerequisites.** Before the installation call, the Client has created in its name and at its expense the account and the subscription of the artificial intelligence service, decided on the model training setting (§16 ter) and prepared its notes tool. The personal data processing agreement (§16) is signed before any access to a mailbox.
+**C.2 Prerequisites.** Before the installation call, the Client has created in its name and at its expense the account and the subscription of the artificial intelligence service, decided on the model training setting (§16 ter) and prepared its notes tool. The personal data processing agreement (§16), attached to the quote, is accepted before any access to a mailbox.
 
 **C.3 Tests.** The tasks are built and tested on fictitious data. Without a test on the Client's real tools and data, and because the results of an artificial intelligence vary, the Provider cannot guarantee that a task is perfect from the installation: adjustments are to be expected. They are made during the installation call and at the adjustment point.
 

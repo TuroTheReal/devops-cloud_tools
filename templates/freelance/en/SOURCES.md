@@ -8,7 +8,7 @@ France first. **Not legal advice** — the dated rules below go stale, recheck b
 - **B2B ≠ B2C** — the "mandatory" quote mentions are mostly a B2C thing; the loi Chatel (Chatel law on tacit renewal) = **B2C only** → in B2B, your notice clause is your only protection.
 - **Signed devis (quote) = contract**; only a **signed avenant (amendment)** modifies it (art. 1193), no extra invoiced without it.
 - **PV de réception (acceptance report) without reservations** = unlocks the final payment + warranties. Invoice **against** the PV.
-- **VAT exemption (franchise de TVA):** `293 B CGI` → `art. L.223-3 CIBS` on **01/09/2026** (both OK until end of 2027).
+- **VAT exemption (franchise de TVA):** mention "TVA non applicable, article 293 B du CGI". The move of VAT into the CIBS is postponed to **01/01/2027** (ordonnance no. 2026-671 of 27/07/2026); the exemption will sit at article L.233-3 (L.223-3 is an abandoned numbering), but the new mention awaits a decree. CGI references stay accepted until **30/06/2028** (BOFiP BOI-RES-TVA-000253, §3.1).
 - **Invoice:** gapless sequential no., **EI** (Individual Entrepreneur) mention, "no discount", **penalties + €40 indemnity** (B2B), keep for **10 years**.
 - **E-invoicing:** receive via a **PDP** (approved e-invoicing platform) on 01/09/2026, issue + e-reporting on 01/09/2027 (the free public exchange portal is dropped).
 - **Variable / IP:** the penalty rate is revised each half-year → keep it as a variable. IP = **written assignment** (paying ≠ assigning the rights). Beware **reclassification as employment** (single client + subordination).

@@ -2,16 +2,18 @@
 
 > ⚠️ These templates follow **French law** (you invoice from France); only the language is English. In case of discrepancy, the French version (`fr/dpa.md`) prevails.
 > **Why this doc:** as soon as you access personal data on a client's behalf (their mailbox for an AI setup, a production database during a migration, the messages of a contact form), you are their **processor** under the GDPR. Article 28 then requires a written contract with mandatory terms. The CGV (§16) refer to this document: without it, you access no personal data.
+> **Always attached, one signature:** for all 3 offers, the quote, the CGV and this agreement go out as **one PDF**. Signing the quote accepts the agreement (article 28(9) requires writing, electronic form allowed, not a separately signed document). Order and export command: see the header of `devis.md` (quote, frozen CGV, this agreement, acceptance page).
 > **Basis:** the European Commission's **standard contractual clauses** (Implementing Decision (EU) 2021/915 of 4 June 2021, Article 28(7) GDPR). Official text reproduced word for word, options chosen. Using them covers every term required by Article 28; the CNIL recommends them without making them mandatory.
 > **Do not modify the clauses** (Clause 2). Only the **annexes** are filled in, and provisions that do not contradict them can be added ("Additional provisions" at the end).
 > **Options chosen:** Clause 1 option 1 (GDPR); Clause 5 (docking) not used; Clause 7.7 option 1 (no sub-processor without prior specific written authorisation); Clauses 8 and 9 option 1 (GDPR). Only typographic change: the dashes of the official text are replaced by parentheses, without change of meaning.
-> **Annex II:** keep the variant of the quote's offer (A infrastructure, B website redesign, C AI setup), delete the other two, fill the brackets.
+> **Annex II:** keep the variant of the quote's offer (A infrastructure, B website redesign, C AI setup), delete the other two, fill the brackets. Only the variant of the quote's offer applies, even if you forget to delete one.
+> **AI on the client's data (annexes III and IV):** by default your AI only sees code, configuration, public content and what the client gives you to frame the mission. For more (logs, databases, exports, mailbox): **no by default**. If the project needs it, you propose it at the brief, the client confirms by email, and the "authorises" box is ticked on the acceptance page. ⚠️ That authorisation only holds if the AI service is itself your processor under an article 28 contract: true of the Anthropic API (Commercial Terms, DPA included), **not** of a Pro or Max subscription (Consumer Terms, Anthropic is not a processor there). Box ticked = session on an API key, and Anthropic listed in annex IV. Sources: [legal and compliance](https://code.claude.com/docs/en/legal-and-compliance), [Anthropic DPA](https://www.anthropic.com/legal/data-processing-addendum).
 > **Annex III:** these are real commitments. Do not sign while a measure is not true on your side (see the checklist at the end).
 > ⚠️ Not legal advice. To be reviewed with the CGV (content-ops#21).
 > Sources: [EUR-Lex, Decision 2021/915](https://eur-lex.europa.eu/eli/dec_impl/2021/915/oj), [CNIL, standard contractual clauses between controller and processor](https://www.cnil.fr/fr/clauses-contractuelles-types-entre-responsable-de-traitement-et-sous-traitant).
 > Replace the `[placeholders]`. Delete this block before sending.
 
-**Attached to quote no. [no.] dated [DD/MM/YYYY]** and to the Provider's general terms of sale, **version [1.0] dated [DD/MM/YYYY]**.
+**Attached to quote no. [no.] dated [DD/MM/YYYY]**, whose signature accepts this agreement, and to the Provider's general terms of sale, **version [1.0] dated [DD/MM/YYYY]**.
 
 The parties listed in Annex I agree to the standard contractual clauses below, adopted by the European Commission (Implementing Decision (EU) 2021/915 of 4 June 2021). The Client is the "controller", the Provider the "processor".
 
@@ -201,7 +203,7 @@ The Parties shall set out in Annex III all other elements to be provided by the 
    Address: [address]
    Contact person's name, position and contact details: [name, position, email]
    Data protection officer, where applicable: [name, email, or "none"]
-   Signature and accession date: [signature, DD/MM/YYYY]
+   Signature and accession date: signature of the acceptance page of quote no. [no.], on [DD/MM/YYYY]
 
 **Processor**
 
@@ -209,11 +211,13 @@ The Parties shall set out in Annex III all other elements to be provided by the 
    Address: [address]
    Contact person's name, position and contact details: [name], provider, [email]
    Data protection officer: none (not required)
-   Signature and accession date: [signature, DD/MM/YYYY]
+   Signature and accession date: issue of quote no. [no.], on [DD/MM/YYYY]
 
 ## ANNEX II: Description of the processing
 
 > Keep the variant of the quote's offer, delete the others.
+
+Only the variant matching the offer named on the quote applies. Any other variant left in the document has no effect.
 
 ### Variant A: infrastructure mission
 
@@ -251,7 +255,7 @@ The Parties shall set out in Annex III all other elements to be provided by the 
 - **Secrets**: stored in an encrypted password manager; never sent by messaging or stored in a code repository.
 - **Workstation**: encrypted disk, security updates applied within 30 days, administration account separate from the everyday account, automatic session lock.
 - **Minimisation**: no copy or export of personal data outside the Client's systems; tests on fictitious data whenever possible.
-- **Processor's artificial intelligence**: no personal data of the Client is sent to an artificial intelligence service the processor uses for its own work.
+- **Processor's artificial intelligence**: the artificial intelligence service the processor uses for its own work only receives the code, the configuration, the Client's already public content and the information the Client provides to frame the mission. The Client's logs, databases, exports and mailboxes are sent to it only if the Client has authorised it in writing, on the quote or later, and provided that this service is listed in annex IV.
 - **Integrity and availability**: no change to a Client system without a verified backup and a tested restore; work on a test environment where one exists, otherwise in a window agreed in writing with a rollback plan.
 - **Traceability**: intervention log kept during the mission and handed to the Client.
 - **Retention**: no Client data kept beyond the processing period, except redacted intervention logs.
@@ -266,6 +270,8 @@ The Parties shall set out in Annex III all other elements to be provided by the 
 
 The controller has authorised the use of the following sub-processors: **none**.
 
+> If the client ticked the AI authorisation on the acceptance page, replace "none" with: "Anthropic PBC, [address given on anthropic.com/legal], United States; service: Claude API, analysis of the data authorised on the acceptance page; transfers outside the Union governed by Anthropic's data processing agreement."
+
 The services the Client subscribes itself, in its name (artificial intelligence provider, mailbox, calendar, notes tool, hosting provider, form service), are governed by its own contracts with their publishers (§16 ter of the CGV). They are not sub-processors of the processor.
 
 ---
@@ -275,7 +281,7 @@ The services the Client subscribes itself, in its name (artificial intelligence 
 Added in accordance with Clause 2(b), they do not contradict the Clauses.
 
 1. This agreement is attached to the quote and the general terms of sale cited at the top. The general terms of sale apply to anything the Clauses do not govern; in case of contradiction, the Clauses prevail (Clause 4).
-2. This agreement takes effect when signed by both parties and, in any event, before any access by the processor to the controller's personal data.
+2. This agreement takes effect when the quote it is attached to is signed and, in any event, before any access by the processor to the controller's personal data.
 
 ---
 
@@ -286,7 +292,7 @@ Added in accordance with Clause 2(b), they do not contradict the Clauses.
 - [ ] Annex III true on your side today: encrypted disk, separate admin account, updates within 30 days, session lock (workstation hardening: content-ops#36), two-factor authentication everywhere (content-ops#33), password manager
 - [ ] No AI assistant of yours on the client's personal data (Claude Code included): if you need one, it becomes a sub-processor to list in Annex IV with the client's written agreement, and a transfer outside the EU to frame (Clause 7.8)
 - [ ] Sensitive data: client's declaration received (§16 bis of the CGV)
-- [ ] Signed by both parties before any access
+- [ ] Acceptance page signed (signs the agreement) before any access, agreement in the same PDF
 - [ ] A signed copy kept for the whole mission and at least [5] years after (proof in case of inspection) [to check]
 
 </details>

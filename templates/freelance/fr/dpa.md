@@ -1,16 +1,18 @@
 # Accord de traitement des données (article 28 du RGPD)
 
 > **Pourquoi ce doc :** dès que tu accèdes à des données personnelles pour le compte d'un client (sa messagerie pour un setup IA, une base de production pendant une migration, les messages d'un formulaire de contact), tu es son **sous-traitant** au sens du RGPD. L'article 28 impose alors un contrat écrit avec des mentions obligatoires. Les CGV (§16) renvoient à ce document : sans lui, tu n'accèdes à aucune donnée personnelle.
+> **Toujours joint, une seule signature :** pour les 3 offres, le devis, les CGV et cet accord partent dans **un seul PDF**. La signature du devis vaut acceptation de l'accord (l'article 28.9 exige un écrit, électronique admis, pas un document signé à part). Ordre et commande d'export : voir l'en-tête de `devis.md` (devis, CGV figées, cet accord, page d'acceptation).
 > **Base :** les **clauses contractuelles types** de la Commission européenne (décision d'exécution (UE) 2021/915 du 4 juin 2021, article 28, paragraphe 7, du RGPD). Texte officiel repris mot pour mot, options choisies. Les utiliser couvre toutes les mentions de l'article 28 ; la CNIL les recommande sans les imposer.
 > **Interdit de modifier les clauses** (clause 2). Seules les **annexes** se remplissent, et on peut ajouter des dispositions qui ne les contredisent pas (« Dispositions complémentaires » en fin de document).
 > **Options retenues :** clause 1 option 1 (RGPD) ; clause 5 (adhésion d'autres parties) non retenue ; clause 7.7 option 1 (aucun sous-traitant ultérieur sans autorisation écrite spécifique) ; clauses 8 et 9 option 1 (RGPD). Seule modification typographique : les tirets cadratins du texte officiel sont remplacés par des parenthèses ou une virgule, sans changement de sens.
-> **Annexe II :** garde la variante de l'offre du devis (A infra, B refonte, C setup IA), supprime les deux autres, précise les crochets.
+> **Annexe II :** garde la variante de l'offre du devis (A infra, B refonte, C setup IA), supprime les deux autres, précise les crochets. Seule la variante de l'offre au devis s'applique, même si tu oublies d'en supprimer une.
+> **IA sur les données du client (annexes III et IV) :** par défaut, ton IA ne voit que le code, la configuration, le contenu public et ce que le client te donne pour cadrer la mission. Pour plus (journaux, bases, exports, messagerie) : **non par défaut**. Si le projet en a besoin, tu le proposes au brief, le client confirme par e-mail, et la case « autorise » est cochée sur la page d'acceptation. ⚠️ Cette autorisation n'est valable que si le service d'IA est lui-même ton sous-traitant sous contrat article 28 : c'est le cas de l'API Anthropic (Commercial Terms, DPA intégré), **pas** d'un abonnement Pro ou Max (Consumer Terms, Anthropic n'y est pas sous-traitant). Autorisation cochée = session sur clé API, et Anthropic inscrit à l'annexe IV. Sources : [legal and compliance](https://code.claude.com/docs/en/legal-and-compliance), [DPA Anthropic](https://www.anthropic.com/legal/data-processing-addendum).
 > **Annexe III :** ce sont des engagements réels. Ne signe pas tant qu'une mesure n'est pas vraie chez toi (voir la checklist en fin de document).
 > ⚠️ Pas un conseil juridique. À faire relire avec les CGV (content-ops#21).
 > Sources : [EUR-Lex, décision 2021/915](https://eur-lex.europa.eu/eli/dec_impl/2021/915/oj), [CNIL, clauses contractuelles types responsable de traitement et sous-traitant](https://www.cnil.fr/fr/clauses-contractuelles-types-entre-responsable-de-traitement-et-sous-traitant).
 > Remplace les `[crochets]`. Supprime ce bloc avant envoi.
 
-**Rattaché au devis n° [n°] du [JJ/MM/AAAA]** et aux conditions générales de vente du Prestataire, **version [1.0] du [JJ/MM/AAAA]**.
+**Annexé au devis n° [n°] du [JJ/MM/AAAA]**, dont la signature vaut acceptation du présent accord, et aux conditions générales de vente du Prestataire, **version [1.0] du [JJ/MM/AAAA]**.
 
 Les parties désignées à l'annexe I conviennent des clauses contractuelles types ci-dessous, adoptées par la Commission européenne (décision d'exécution (UE) 2021/915 du 4 juin 2021). Le Client y est le « responsable du traitement », le Prestataire le « sous-traitant ».
 
@@ -200,7 +202,7 @@ d) À la suite de la résiliation du contrat, le sous-traitant supprime, selon l
    Adresse : [adresse]
    Nom, fonction et coordonnées de la personne de contact : [nom, fonction, e-mail]
    Délégué à la protection des données, le cas échéant : [nom, e-mail, ou « aucun »]
-   Signature et date d'adhésion : [signature, JJ/MM/AAAA]
+   Signature et date d'adhésion : signature de la page d'acceptation du devis n° [n°], le [JJ/MM/AAAA]
 
 **Sous-traitant**
 
@@ -208,11 +210,13 @@ d) À la suite de la résiliation du contrat, le sous-traitant supprime, selon l
    Adresse : [adresse]
    Nom, fonction et coordonnées de la personne de contact : [nom], prestataire, [e-mail]
    Délégué à la protection des données : aucun (non requis)
-   Signature et date d'adhésion : [signature, JJ/MM/AAAA]
+   Signature et date d'adhésion : émission du devis n° [n°], le [JJ/MM/AAAA]
 
 ## ANNEXE II : Description du traitement
 
 > Garde la variante de l'offre du devis, supprime les autres.
+
+Seule s'applique la variante correspondant à l'offre indiquée au devis. Les autres variantes, si elles figurent au document, sont sans effet.
 
 ### Variante A : mission d'infrastructure
 
@@ -250,7 +254,7 @@ d) À la suite de la résiliation du contrat, le sous-traitant supprime, selon l
 - **Secrets** : stockés dans un gestionnaire de mots de passe chiffré ; jamais transmis par messagerie ni stockés dans un dépôt de code.
 - **Poste de travail** : disque chiffré, mises à jour de sécurité appliquées sous 30 jours, compte d'administration séparé du compte d'usage courant, verrouillage automatique de session.
 - **Minimisation** : aucune copie ni export de données à caractère personnel hors des systèmes du Client ; tests sur données fictives chaque fois que possible.
-- **Intelligence artificielle du sous-traitant** : aucune donnée à caractère personnel du Client n'est transmise à un service d'intelligence artificielle utilisé par le sous-traitant pour son propre travail.
+- **Intelligence artificielle du sous-traitant** : le service d'intelligence artificielle que le sous-traitant utilise pour son propre travail ne reçoit que le code, la configuration, les contenus déjà publics du Client et les informations que celui-ci fournit pour cadrer la mission. Les journaux, bases de données, exports et messageries du Client ne lui sont transmis que si le Client l'a autorisé par écrit, au devis ou ultérieurement, et à condition que ce service figure à l'annexe IV.
 - **Intégrité et disponibilité** : aucune modification d'un système du Client sans sauvegarde vérifiée et restauration testée ; intervention sur environnement de test lorsqu'il existe, sinon sur une fenêtre convenue par écrit avec plan de retour arrière.
 - **Traçabilité** : journal d'intervention tenu pendant la mission et remis au Client.
 - **Conservation** : aucune donnée du Client conservée au-delà de la durée du traitement, hors journaux d'intervention expurgés.
@@ -265,6 +269,8 @@ d) À la suite de la résiliation du contrat, le sous-traitant supprime, selon l
 
 Le responsable du traitement a autorisé le recours aux sous-traitants ultérieurs suivants : **aucun**.
 
+> Si le client a coché l'autorisation d'IA sur la page d'acceptation, remplace « aucun » par : « Anthropic PBC, [adresse indiquée sur anthropic.com/legal], États-Unis ; service : API Claude, analyse des données autorisées sur la page d'acceptation ; transferts hors de l'Union encadrés par l'accord de traitement des données d'Anthropic. »
+
 Les services que le Client souscrit lui-même, à son nom (fournisseur d'intelligence artificielle, messagerie, agenda, outil de notes, hébergeur, service de formulaire), relèvent de ses propres contrats avec leurs éditeurs (§16 ter des CGV). Ils ne sont pas des sous-traitants ultérieurs du sous-traitant.
 
 ---
@@ -274,7 +280,7 @@ Les services que le Client souscrit lui-même, à son nom (fournisseur d'intelli
 Ajoutées conformément à la clause 2, point b), elles ne contredisent pas les clauses.
 
 1. Le présent accord est rattaché au devis et aux conditions générales de vente cités en tête. Les conditions générales s'appliquent à tout ce que les clauses ne règlent pas ; en cas de contradiction, les clauses prévalent (clause 4).
-2. Le présent accord prend effet à sa signature par les deux parties et, en tout état de cause, avant tout accès du sous-traitant à des données à caractère personnel du responsable du traitement.
+2. Le présent accord prend effet à la signature du devis auquel il est annexé et, en tout état de cause, avant tout accès du sous-traitant à des données à caractère personnel du responsable du traitement.
 
 ---
 
@@ -285,7 +291,7 @@ Ajoutées conformément à la clause 2, point b), elles ne contredisent pas les 
 - [ ] Annexe III vraie chez toi aujourd'hui : disque chiffré, compte admin séparé, mises à jour sous 30 jours, verrouillage de session (durcissement du poste : content-ops#36), double authentification partout (content-ops#33), gestionnaire de mots de passe
 - [ ] Aucun assistant d'IA à toi sur des données personnelles du client (Claude Code compris) : si tu en as besoin, il devient un sous-traitant ultérieur à inscrire en annexe IV avec l'accord écrit du client, et c'est un transfert hors UE à encadrer (clause 7.8)
 - [ ] Données sensibles : déclaration du client reçue (§16 bis des CGV)
-- [ ] Signé par les deux parties avant tout accès
+- [ ] Page d'acceptation signée (vaut signature de l'accord) avant tout accès, accord dans le même PDF
 - [ ] Une copie signée gardée pendant toute la mission et au moins [5] ans après (preuve en cas de contrôle) [à vérifier]
 
 </details>

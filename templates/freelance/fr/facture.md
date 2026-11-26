@@ -37,8 +37,7 @@ SIRET [xxxxxxxxxxxxxx] · [forme juridique]
 **Total net à payer : [€]**
 *(franchise de TVA : un montant net, pas de ligne HT/TTC ni de TVA. Si assujetti : total HT + taux et montant de TVA + total TTC.)*
 
-**TVA non applicable, art. 293 B du CGI**
-*(→ remplacer par « TVA non applicable, art. L.223-3 du CIBS » à partir du 1er septembre 2026 ; les deux formulations sont acceptées jusqu'au 31/12/2027.)*
+**TVA non applicable, article 293 B du CGI**
 
 ## Paiement
 
@@ -59,7 +58,7 @@ SIRET [xxxxxxxxxxxxxx] · [forme juridique]
 - [ ] Client : nom/dénomination + adresse (+ n° bon de commande si existe)
 - [ ] Désignation précise + quantité/unité + prix unitaire HT + réductions acquises
 - [ ] Total net (franchise) **ou** total HT + taux/montant TVA + TTC (si assujetti)
-- [ ] Mention franchise TVA (293 B → CIBS au 01/09/2026) — sauf si assujetti
+- [ ] Mention franchise TVA « TVA non applicable, article 293 B du CGI », sauf si assujetti
 - [ ] Échéance de paiement
 - [ ] Taux de pénalités de retard + indemnité 40 € (B2B) + « Pas d'escompte »
 - [ ] **Conserver 10 ans** (art. L123-22 Code de commerce)
@@ -88,7 +87,7 @@ Réforme en cours, calendrier légal actuel (déjà repoussé par le passé → 
 **Facture 2026-014** — mise en place pipeline CI/CD (réf. devis 2026-006, PV du 12/06/2026).
 
 - Prestation : forfait « pipeline CI/CD + monitoring » — 6 000 € net.
-- **Total net à payer : 6 000 €.** TVA non applicable, art. 293 B du CGI.
+- **Total net à payer : 6 000 €.** TVA non applicable, article 293 B du CGI.
 - Échéance : 15 jours. Pénalités : [taux] % + indemnité 40 €. Pas d'escompte pour paiement anticipé.
 
 </details>

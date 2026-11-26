@@ -66,7 +66,7 @@ Dual signature mandatory (without it, the avenant has no value).
 <details>
 <summary><b>VAT note</b> <i>(micro-enterprise)</i></summary>
 
-Same rules as the devis: prices excl. VAT + **"TVA non applicable, art. 293 B du CGI"** (VAT not applicable, French Tax Code art. 293 B) (→ **"art. L.223-3 du CIBS"** from **1 September 2026**).
+Same rules as the devis: prices excl. VAT + **"TVA non applicable, article 293 B du CGI"** (VAT not applicable, French Tax Code art. 293 B).
 
 </details>
 
