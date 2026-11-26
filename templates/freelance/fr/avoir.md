@@ -32,8 +32,9 @@ SIRET [xxxxxxxxxxxxxx] · [forme juridique]
 
 **Total de l'avoir : [- €]** *(montant négatif)*
 
-**TVA non applicable, art. 293 B du CGI**
-*(→ « art. L.223-3 du CIBS » à partir du 01/09/2026 ; en franchise : montant net négatif, pas de ligne de TVA.)*
+**TVA non applicable, article 293 B du CGI**
+
+> En franchise : montant net négatif, pas de ligne de TVA.
 
 ## Traitement
 
@@ -49,7 +50,7 @@ SIRET [xxxxxxxxxxxxxx] · [forme juridique]
 
 - Motif : environnement de recette facturé par erreur (non réalisé).
 - Ligne annulée : « environnement de recette » — 900 €.
-- **Total de l'avoir : - 900 €.** TVA non applicable, art. 293 B du CGI.
+- **Total de l'avoir : - 900 €.** TVA non applicable, article 293 B du CGI.
 - Traitement : imputé sur la prochaine facture.
 
 </details>

@@ -51,7 +51,7 @@ Time is counted **during business hours** (see §5).
 - **Model:** [monthly fixed fee €X for N h/tickets] / [time-and-materials daily rate €Y] / [per ticket].
 - **Overage:** [rate beyond the fixed fee].
 - **Revision:** [annual].
-- Micro under exemption: net amount, "TVA non applicable, art. 293 B du CGI" (VAT not applicable, French Tax Code art. 293 B) (→ CIBS on 01/09/2026).
+- Micro under exemption: net amount, "TVA non applicable, article 293 B du CGI" (VAT not applicable, French Tax Code art. 293 B).
 
 ## 7. Obligations
 

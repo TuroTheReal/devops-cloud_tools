@@ -8,7 +8,7 @@ France d'abord. **Pas un conseil juridique** — les règles datées ci-dessous 
 - **B2B ≠ B2C** — mentions devis "obligatoires" surtout en B2C ; loi Chatel (reconduction tacite) = **B2C only** → en B2B, ta clause de préavis est ta seule protection.
 - **Devis signé = contrat** ; seul un **avenant signé** le modifie (art. 1193), pas de surplus facturé sans lui.
 - **PV de réception sans réserve** = débloque le paiement final + garanties. Facture **contre** le PV.
-- **TVA franchise :** `293 B CGI` → `art. L.223-3 CIBS` au **01/09/2026** (les deux OK jusqu'à fin 2027).
+- **TVA franchise :** mention « TVA non applicable, article 293 B du CGI ». Le passage de la TVA au CIBS est reporté au **01/01/2027** (ordonnance n° 2026-671 du 27/07/2026) ; la franchise y sera à l'article L.233-3 (L.223-3 est une numérotation abandonnée), mais la nouvelle mention attend un décret. Les références au CGI restent admises jusqu'au **30/06/2028** (BOFiP BOI-RES-TVA-000253, §3.1).
 - **Facture :** n° séquentiel sans trou, mention **EI**, « pas d'escompte », **pénalités + indemnité 40 €** (B2B), conserver **10 ans**.
 - **E-invoicing :** recevoir via **PDP** au 01/09/2026, émettre + e-reporting au 01/09/2027 (le portail public gratuit d'échange est abandonné).
 - **Variable / PI :** taux de pénalités révisé chaque semestre → garder en variable. PI = **cession écrite** (payer ≠ céder les droits). Gare à la **requalification salariat** (client unique + subordination).

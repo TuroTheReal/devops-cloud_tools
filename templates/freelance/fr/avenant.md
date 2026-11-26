@@ -65,7 +65,7 @@ Double signature obligatoire (sans elle, l'avenant n'a aucune valeur).
 <details>
 <summary><b>Note TVA</b> <i>(micro-entreprise)</i></summary>
 
-Mêmes règles que le devis : prix HT + **"TVA non applicable, art. 293 B du CGI"** (→ **"art. L.223-3 du CIBS"** à partir du **1er septembre 2026**).
+Mêmes règles que le devis : prix HT + **"TVA non applicable, article 293 B du CGI"**.
 
 </details>
 

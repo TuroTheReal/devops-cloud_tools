@@ -38,8 +38,7 @@ SIRET [xxxxxxxxxxxxxx] (French business registration number) · [legal form]
 **Total net payable: [€]**
 *(franchise de TVA / VAT exemption: a net amount, no excl. VAT / incl. VAT lines and no VAT. If liable for VAT: total excl. VAT + VAT rate and amount + total incl. VAT.)*
 
-**TVA non applicable, art. 293 B du CGI** (VAT not applicable, French Tax Code art. 293 B)
-*(→ replace with "TVA non applicable, art. L.223-3 du CIBS" (VAT not applicable, art. L.223-3 of the CIBS) from 1 September 2026; both wordings are accepted until 31/12/2027.)*
+**TVA non applicable, article 293 B du CGI** (VAT not applicable, French Tax Code art. 293 B)
 
 ## Payment
 
@@ -60,7 +59,7 @@ SIRET [xxxxxxxxxxxxxx] (French business registration number) · [legal form]
 - [ ] Client: name/company name + address (+ purchase order no. if any)
 - [ ] Precise description + quantity/unit + unit price excl. VAT + earned discounts
 - [ ] Total net (exemption) **or** total excl. VAT + VAT rate/amount + incl. VAT (if liable)
-- [ ] VAT-exemption mention (293 B → CIBS on 01/09/2026) — unless liable for VAT
+- [ ] VAT-exemption mention "TVA non applicable, article 293 B du CGI", unless liable for VAT
 - [ ] Payment due date
 - [ ] Late-payment penalty rate + €40 indemnity (B2B) + "No discount"
 - [ ] **Keep for 10 years** (**art. L123-22 Code de commerce**, French Commercial Code art. L123-22)
@@ -89,7 +88,7 @@ Reform under way, current legal schedule (already postponed in the past → to w
 **Invoice 2026-014** — setting up a CI/CD pipeline (ref. quote 2026-006, PV of 12/06/2026).
 
 - Service: fixed fee "CI/CD pipeline + monitoring" — €6,000 net.
-- **Total net payable: €6,000.** TVA non applicable, art. 293 B du CGI (VAT not applicable, French Tax Code art. 293 B).
+- **Total net payable: €6,000.** TVA non applicable, article 293 B du CGI (VAT not applicable, French Tax Code art. 293 B).
 - Due: 15 days. Penalties: [rate] % + €40 indemnity. No discount for early payment.
 
 </details>

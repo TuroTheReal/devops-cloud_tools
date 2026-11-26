@@ -50,7 +50,7 @@ Le temps se décompte **pendant les heures ouvrées** (voir §5).
 - **Modèle :** [forfait mensuel X € pour N h/tickets] / [régie TJM Y €] / [au ticket].
 - **Dépassement :** [taux au-delà du forfait].
 - **Révision :** [annuelle].
-- Micro en franchise : montant net, « TVA non applicable, art. 293 B du CGI » (→ CIBS au 01/09/2026).
+- Micro en franchise : montant net, « TVA non applicable, article 293 B du CGI ».
 
 ## 7. Obligations
 

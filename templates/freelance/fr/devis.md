@@ -6,7 +6,7 @@
 > ⚠️ Pas un conseil juridique. Les mentions dépendent de ton statut (micro-entreprise, TVA) et du type de client (B2B/B2C) : vérifie l'à-jour sur service-public.fr / URSSAF (voir `SOURCES.md`).
 > **Travaille sur une copie, jamais sur ce fichier.** `cp devis.md ~/Documents/clients/x/devis-2026-001.md`, puis remplis la copie.
 > Remplace les `[crochets]`. Garde les rubriques utiles, supprime le reste. Laisse les lignes `>` : elles ne partent pas au PDF.
-> **Export :** `scripts/utils/md2pdf.sh ta-copie.md`, il avertit s'il reste des crochets visibles par le client.
+> **Export : un seul PDF**, pour toutes les offres, dans cet ordre : devis, CGV figées de la version en vigueur (copie remplie, par ex. `cgv-v1.0.md`, jamais le modèle vierge), accord de traitement des données, page d'acceptation. `cat devis-N.md cgv-v1.0.md dpa-N.md acceptation-N.md > dossier-N.md`, puis `scripts/utils/md2pdf.sh dossier-N.md` : il avertit s'il reste des crochets visibles par le client.
 
 ## En bref
 
@@ -89,7 +89,7 @@ Tout déplacement sur site, s'il est demandé, fait l'objet d'une ligne séparé
 
 - **Total HT :** [€] · **TVA :** [€] · **Total TTC :** [€]
 - **Acompte et solde :** selon l'échéancier de l'offre (CGV, partie 2) : [40 % à la commande, solde à …] · **Paiement :** [15 jours date de facture]
-- **TVA non applicable, art. L.223-3 du CIBS.**
+- **TVA non applicable, article 293 B du CGI.**
 
 ## 9. Durée de validité du devis
 
@@ -97,16 +97,17 @@ Tout déplacement sur site, s'il est demandé, fait l'objet d'une ligne séparé
 
 ## 10. Conditions
 
-- **Modification :** tout changement de périmètre fait l'objet d'un avenant signé (art. 1193 Code civil). Voir `avenant.md`.
-- **CGV :** annexées au présent devis, **version [1.0] du [JJ/MM/AAAA]** (voir `cgv.md`) : partie 1 et chapitre de l'offre indiquée en tête. Le Client reconnaît en avoir pris connaissance. Elles portent notamment l'échéancier, la réception, la garantie, la **cession de propriété intellectuelle à paiement intégral**, le plafond de responsabilité et les données sensibles (§16 bis). **Citer la version est indispensable** : c'est ce qui permet de prouver laquelle a été acceptée.
+- **Modification :** tout changement de périmètre fait l'objet d'un avenant signé (art. 1193 Code civil).
+- **Accord de traitement des données (article 28 du RGPD) :** annexé au présent devis. La signature du devis vaut acceptation de cet accord.
+- **Intelligence artificielle :** le Prestataire utilise un service d'intelligence artificielle sur le code, la configuration, les contenus publics du Client et les informations fournies pour cadrer la mission. Il n'y transmet ni les journaux, ni les bases de données, ni les exports, ni les messageries du Client, sauf autorisation donnée sur la page d'acceptation.
+- **CGV :** annexées au présent devis, **version [1.0] du [JJ/MM/AAAA]** : partie 1 et chapitre de l'offre indiquée en tête. Le Client reconnaît en avoir pris connaissance. Elles portent notamment l'échéancier, la réception, la garantie, la **cession de propriété intellectuelle à paiement intégral**, le plafond de responsabilité et les données sensibles (§16 bis). **Citer la version est indispensable** : c'est ce qui permet de prouver laquelle a été acceptée.
 
-## 11. Signature : bon pour accord
+## 11. Acceptation
 
-> Rappel : la signature datée précédée de « Bon pour accord » forme le contrat.
-> **Signer à distance** (mail ou signature électronique), jamais chez le client : un devis signé sur place avec un professionnel de 5 salariés ou moins, pour un service hors de son activité principale, lui ouvre 14 jours de rétractation (art. L.221-3 du code de la consommation) [à vérifier].
+Le présent devis est accepté par la signature de la page d'acceptation, en fin de dossier. Cette signature unique couvre le devis, les CGV et l'accord de traitement des données joints.
 
-- Prestataire : [nom, date, signature]
-- Client : **Bon pour accord** : [nom, date, signature]
+> Toi, tu ne signes pas : ton devis envoyé est l'offre, la signature du client l'acceptation (article 1113 du code civil). Garde l'e-mail d'envoi comme preuve.
+> **Signer à distance** (mail ou signature électronique), jamais chez le client : un devis signé sur place avec un professionnel de 5 salariés ou moins, pour un service hors de son activité principale, lui ouvre 14 jours de rétractation (art. L.221-3 du code de la consommation).
 
 ---
 
@@ -124,7 +125,7 @@ Source service-public F31144 (voir `SOURCES.md`). **Requis** pour un client part
 - [ ] Ventilation des frais annexes (HT/TTC)
 - [ ] Durée de validité de l'offre
 - [ ] Date / délai d'exécution ou de livraison
-- [ ] **Micro-entreprise en franchise de TVA :** prix en HT + mention **"TVA non applicable, art. L.223-3 du CIBS"** (remplace l'art. 293 B du CGI depuis le **1er septembre 2026**, les deux admis jusqu'à fin 2027).
+- [ ] **Micro-entreprise en franchise de TVA :** prix en HT + mention **"TVA non applicable, article 293 B du CGI"**.
 - [ ] Conserver une copie **≥ 1 an**.
 
 _Note : la mention manuscrite "devis reçu avant l'exécution des travaux" est une règle **BTP/travaux**, pas requise pour une prestation intellectuelle/logicielle. Un "bon pour accord" signé suffit._
@@ -140,6 +141,6 @@ _Note : la mention manuscrite "devis reçu avant l'exécution des travaux" est u
 - **Périmètre exclu :** développement applicatif, migration de données, astreinte 24/7 (→ voir contrat de maintenance séparé).
 - **Critère d'acceptation :** un push sur `main` déploie en staging en < 10 min, rollback documenté testé une fois, alerte qui se déclenche sur un test de charge.
 - **Prix :** forfait 6 000 € HT, acompte 40 % à la commande, solde à la réception sans réserve, paiement à 15 jours.
-- **Micro-entreprise :** "TVA non applicable, art. L.223-3 du CIBS".
+- **Micro-entreprise :** "TVA non applicable, article 293 B du CGI".
 
 </details>

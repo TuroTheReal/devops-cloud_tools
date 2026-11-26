@@ -7,7 +7,7 @@
 > ⚠️ Pas un conseil juridique. Modèle à faire relire une fois par un juriste avant la première mission (content-ops#21). Les points marqués **[à vérifier]** reposent sur des règles qui bougent ou qui dépendent de ton statut.
 > Remplace les `[placeholders]`. Supprime ce bloc avant envoi.
 
-**Version 1.0 du 25/11/2026**, applicable à tout devis émis à compter de cette date.
+**Version 1.0 du 26/11/2026**, applicable à tout devis émis à compter de cette date.
 
 ---
 
@@ -37,13 +37,13 @@ Le contrat est formé des documents suivants, par ordre de priorité décroissan
 1. les avenants signés, du plus récent au plus ancien ;
 2. le devis signé « bon pour accord » ;
 3. les présentes conditions générales, partie 2 (chapitre de l'offre indiquée au devis), puis partie 1 ;
-4. le cas échéant, l'accord de confidentialité et le contrat de sous-traitance de données personnelles.
+4. l'accord de traitement des données (article 28 du RGPD) annexé au devis et, le cas échéant, l'accord de confidentialité.
 
 En cas de contradiction, le document de rang supérieur prévaut.
 
 ## 3. Formation du contrat
 
-Le devis est valable **[30] jours** à compter de son émission. Le contrat est formé à la date de réception par le Prestataire du devis signé, revêtu de la mention manuscrite « bon pour accord », **et de l'encaissement de l'acompte**.
+Le devis est valable **[30] jours** à compter de son émission. Le contrat est formé à la date de réception par le Prestataire du devis signé, revêtu de la mention « bon pour accord », **et de l'encaissement de l'acompte**.
 
 Aucune prestation ne démarre avant ces deux conditions.
 
@@ -130,7 +130,7 @@ Les interventions au titre de la garantie ont lieu en heures ouvrées.
 
 Les prix sont exprimés en euros, hors taxes.
 
-**TVA non applicable, article L.223-3 du code des impositions sur les biens et services.** **[à vérifier]** Cette mention remplace « TVA non applicable, article 293 B du code général des impôts » depuis le 1er septembre 2026, les deux formulations étant admises jusqu'à fin 2027.
+**TVA non applicable, article 293 B du code général des impôts.**
 
 - **Acompte et solde** : selon l'échéancier du chapitre de l'offre (partie 2), sauf échéancier différent écrit au devis.
 - **Délai de paiement** : [15] jours à compter de la date de facture.
@@ -213,7 +213,7 @@ La présente clause ne fait pas obstacle à l'application du §19.
 
 Lorsque la mission conduit le Prestataire à traiter des données personnelles pour le compte du Client, celui-ci agit en qualité de responsable de traitement et le Prestataire en qualité de sous-traitant au sens de l'article 28 du règlement (UE) 2016/679.
 
-Un **contrat de sous-traitance distinct** est alors signé avant tout accès. À défaut, le Prestataire n'accède à aucune donnée personnelle.
+Un **accord de traitement des données (article 28 du RGPD)** est annexé à chaque devis ; la signature du devis vaut acceptation de cet accord. À défaut, le Prestataire n'accède à aucune donnée personnelle.
 
 Le Prestataire informe le Client sans délai de toute violation de données personnelles dont il a connaissance, afin de lui permettre de remplir ses propres obligations de notification.
 
@@ -302,15 +302,15 @@ Les présentes sont soumises au **droit français**.
 
 Les parties s'efforcent de résoudre tout différend à l'amiable. À défaut d'accord dans un délai de [30] jours, le litige est porté devant les juridictions françaises compétentes.
 
-**[à vérifier]** Une clause attribuant compétence à un tribunal déterminé n'est valable qu'entre commerçants (article 48 du code de procédure civile). Une prestation intellectuelle exercée en entrepreneur individuel n'entre pas nécessairement dans cette catégorie : faire trancher par un juriste avant d'ajouter un tribunal nommément désigné.
-
 ---
 
 # Partie 2 : conditions propres à chaque offre
 
-Seul s'applique le chapitre de l'offre indiquée au devis. Il complète la partie 1 et prévaut sur elle en cas de contradiction.
+Seul s'applique le chapitre de l'offre indiquée au devis. Il complète la partie 1 et prévaut sur elle en cas de contradiction. Les chapitres des autres offres sont sans effet et ne créent aucun droit pour le Client.
 
 ## A. Missions d'infrastructure
+
+*Ce chapitre ne s'applique que si le devis porte sur une mission d'infrastructure.*
 
 Audit, mise en production, monitoring, industrialisation des déploiements, migration de production, infrastructure as code.
 
@@ -323,6 +323,8 @@ Audit, mise en production, monitoring, industrialisation des déploiements, migr
 **A.4 Après la passation.** Le runbook et la documentation sont remis à la passation. L'exploitation, la surveillance et l'astreinte relèvent du Client (§18).
 
 ## B. Refonte de site internet
+
+*Ce chapitre ne s'applique que si le devis porte sur une refonte de site internet.*
 
 **B.1 Périmètre de base.** Nouvelle interface sur les textes et photos existants du Client, version mobile comprise ; fonctions existantes reproduites à l'identique ; adresses (URL) existantes conservées ; référencement technique ; page de mentions légales conservée, ou créée à partir des informations du Client ; mise en ligne avec bascule réversible du nom de domaine, sans modification de la messagerie du Client sauf accord écrit. Les options vendues figurent au devis.
 
@@ -342,9 +344,11 @@ Audit, mise en production, monitoring, industrialisation des déploiements, migr
 
 ## C. Mise en place d'un environnement d'intelligence artificielle
 
+*Ce chapitre ne s'applique que si le devis porte sur la mise en place d'un environnement d'intelligence artificielle.*
+
 **C.1 Périmètre.** Paramétrage, dans le compte du Client, de son assistant d'intelligence artificielle : préférences, document de contexte, instructions, connecteurs autorisés par le Client, et les tâches listées au devis, chacune avec sa taille (simple ou avancée) et son déclenchement (à la demande ou programmé). La visio d'installation est une remise de ce qui a été installé ; elle ne constitue pas une action de formation.
 
-**C.2 Prérequis.** Avant la visio d'installation, le Client a créé à son nom et à ses frais le compte et l'abonnement du service d'intelligence artificielle, décidé du réglage d'entraînement des modèles (§16 ter) et préparé son outil de notes. Le contrat de sous-traitance de données personnelles (§16) est signé avant tout accès à une messagerie.
+**C.2 Prérequis.** Avant la visio d'installation, le Client a créé à son nom et à ses frais le compte et l'abonnement du service d'intelligence artificielle, décidé du réglage d'entraînement des modèles (§16 ter) et préparé son outil de notes. L'accord de traitement des données (§16), annexé au devis, est accepté avant tout accès à une messagerie.
 
 **C.3 Tests.** Les tâches sont construites et testées sur des données fictives. Sans test sur les outils et les données réels du Client, et parce que les résultats d'une intelligence artificielle varient, le Prestataire ne peut garantir qu'une tâche soit parfaite dès l'installation : des ajustements sont à prévoir. Ils sont faits pendant la visio d'installation et au point d'ajustement.
 
@@ -407,7 +411,7 @@ Où il ne faut pas aller : exclure toute responsabilité, supprimer la garantie,
 - [ ] Relecture par un juriste, au moins une fois (content-ops#21)
 - [ ] Responsabilité civile professionnelle souscrite (§14 la déclare, content-ops#27)
 - [ ] Accord de confidentialité type prêt (§2)
-- [ ] Contrat de sous-traitance RGPD prêt (§16, content-ops#25)
+- [ ] Accord de traitement des données prêt (§16, `dpa.md`, content-ops#25)
 - [ ] Cahier de recette type prêt (§9)
 - [ ] Journal d'intervention type prêt (§17)
 - [ ] **Adresse complète renseignée au §1.** Un contrat a besoin d'une adresse où notifier : sans elle, les mises en demeure des §11, §22 et §23 n'ont pas de destinataire.

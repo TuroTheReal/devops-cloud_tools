@@ -33,8 +33,9 @@ SIRET [xxxxxxxxxxxxxx] (French business registration number) · [legal form]
 
 **Credit note total: [- €]** *(negative amount)*
 
-**TVA non applicable, art. 293 B du CGI** (VAT not applicable, French Tax Code art. 293 B)
-*(→ "art. L.223-3 du CIBS" from 01/09/2026; under the exemption: negative net amount, no VAT line.)*
+**TVA non applicable, article 293 B du CGI** (VAT not applicable, French Tax Code art. 293 B)
+
+> Under the exemption: negative net amount, no VAT line.
 
 ## Processing
 
@@ -50,7 +51,7 @@ SIRET [xxxxxxxxxxxxxx] (French business registration number) · [legal form]
 
 - Reason: QA/acceptance environment invoiced by mistake (not performed).
 - Cancelled line: "QA/acceptance environment" — €900.
-- **Credit note total: - €900.** TVA non applicable, art. 293 B du CGI (VAT not applicable, French Tax Code art. 293 B).
+- **Credit note total: - €900.** TVA non applicable, article 293 B du CGI (VAT not applicable, French Tax Code art. 293 B).
 - Processing: applied against the next invoice.
 
 </details>
