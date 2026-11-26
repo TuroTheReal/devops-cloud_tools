@@ -3,17 +3,18 @@
 > **Pourquoi ce doc :** ton offre chiffrée qui, signée « bon pour accord », **devient le contrat**. Le point de départ du cycle.
 > Proposition commerciale (devis descriptif) qui définit le périmètre, les livrables, le prix et les délais.
 > **Une fois signée "bon pour accord", elle a valeur contractuelle : c'est LE contrat.** Soigne le périmètre exclu et les critères d'acceptation, c'est ce qui évite les litiges.
-> ⚠️ Pas un conseil juridique. Les mentions dépendent de ton statut (micro-entreprise, TVA) et du type de client (B2B/B2C) — vérifie l'à-jour sur service-public.fr / URSSAF (voir `SOURCES.md`).
+> ⚠️ Pas un conseil juridique. Les mentions dépendent de ton statut (micro-entreprise, TVA) et du type de client (B2B/B2C) : vérifie l'à-jour sur service-public.fr / URSSAF (voir `SOURCES.md`).
 > **Travaille sur une copie, jamais sur ce fichier.** `cp devis.md ~/Documents/clients/x/devis-2026-001.md`, puis remplis la copie.
 > Remplace les `[crochets]`. Garde les rubriques utiles, supprime le reste. Laisse les lignes `>` : elles ne partent pas au PDF.
-> **Export :** `scripts/utils/md2pdf.sh ta-copie.md` — il avertit s'il reste des crochets visibles par le client.
+> **Export :** `scripts/utils/md2pdf.sh ta-copie.md`, il avertit s'il reste des crochets visibles par le client.
 
 ## En bref
 
+- **Offre :** [infra / refonte de site / mise en place d'un environnement d'IA] (chapitre A, B ou C de la partie 2 des CGV)
 - **Prestataire :** [nom, statut juridique, adresse, SIREN/SIRET]
 - **Client :** [nom, adresse]
 - **Date :** [JJ/MM/AAAA] · **Réf. devis :** [n°]
-- **Contact :** [email] · [téléphone]
+- **Contact :** [email]
 - **Validité de l'offre :** [ex. 30 jours]
 - **Statut :** [brouillon / envoyé / signé]
 
@@ -87,7 +88,8 @@ Tout déplacement sur site, s'il est demandé, fait l'objet d'une ligne séparé
 | [prestation] | [x]           | [€]              | [€]      | [taux] |
 
 - **Total HT :** [€] · **TVA :** [€] · **Total TTC :** [€]
-- **Acompte :** [40 % à la commande] · **Solde :** [à la réception sans réserve — voir `pv-reception.md`] · **Paiement :** [15 jours date de facture]
+- **Acompte et solde :** selon l'échéancier de l'offre (CGV, partie 2) : [40 % à la commande, solde à …] · **Paiement :** [15 jours date de facture]
+- **TVA non applicable, art. L.223-3 du CIBS.**
 
 ## 9. Durée de validité du devis
 
@@ -96,19 +98,20 @@ Tout déplacement sur site, s'il est demandé, fait l'objet d'une ligne séparé
 ## 10. Conditions
 
 - **Modification :** tout changement de périmètre fait l'objet d'un avenant signé (art. 1193 Code civil). Voir `avenant.md`.
-- **CGV :** annexées au présent devis, **version [1.0] du [JJ/MM/AAAA]** (voir `cgv.md`). Le Client reconnaît en avoir pris connaissance. Elles portent les pénalités de retard, la réception, la garantie, la **cession de propriété intellectuelle à paiement intégral** et le plafond de responsabilité. **Citer la version est indispensable** : c'est ce qui permet de prouver laquelle a été acceptée.
+- **CGV :** annexées au présent devis, **version [1.0] du [JJ/MM/AAAA]** (voir `cgv.md`) : partie 1 et chapitre de l'offre indiquée en tête. Le Client reconnaît en avoir pris connaissance. Elles portent notamment l'échéancier, la réception, la garantie, la **cession de propriété intellectuelle à paiement intégral**, le plafond de responsabilité et les données sensibles (§16 bis). **Citer la version est indispensable** : c'est ce qui permet de prouver laquelle a été acceptée.
 
-## 11. Signature — bon pour accord
+## 11. Signature : bon pour accord
 
 > Rappel : la signature datée précédée de « Bon pour accord » forme le contrat.
+> **Signer à distance** (mail ou signature électronique), jamais chez le client : un devis signé sur place avec un professionnel de 5 salariés ou moins, pour un service hors de son activité principale, lui ouvre 14 jours de rétractation (art. L.221-3 du code de la consommation) [à vérifier].
 
 - Prestataire : [nom, date, signature]
-- Client : **Bon pour accord** — [nom, date, signature]
+- Client : **Bon pour accord** : [nom, date, signature]
 
 ---
 
 <details>
-<summary><b>Mentions obligatoires FR — checklist</b> <i>(vérifie selon B2C / B2B et ton statut)</i></summary>
+<summary><b>Mentions obligatoires FR, checklist</b> <i>(vérifie selon B2C / B2B et ton statut)</i></summary>
 
 Source service-public F31144 (voir `SOURCES.md`). **Requis** pour un client particulier / service à la personne ; **fortement recommandé** en B2B.
 
@@ -121,7 +124,7 @@ Source service-public F31144 (voir `SOURCES.md`). **Requis** pour un client part
 - [ ] Ventilation des frais annexes (HT/TTC)
 - [ ] Durée de validité de l'offre
 - [ ] Date / délai d'exécution ou de livraison
-- [ ] **Micro-entreprise en franchise de TVA :** prix en HT + mention **"TVA non applicable, art. 293 B du CGI"** — ⚠️ remplacée par **"TVA non applicable, art. L.223-3 du CIBS"** à partir du **1er septembre 2026**.
+- [ ] **Micro-entreprise en franchise de TVA :** prix en HT + mention **"TVA non applicable, art. L.223-3 du CIBS"** (remplace l'art. 293 B du CGI depuis le **1er septembre 2026**, les deux admis jusqu'à fin 2027).
 - [ ] Conserver une copie **≥ 1 an**.
 
 _Note : la mention manuscrite "devis reçu avant l'exécution des travaux" est une règle **BTP/travaux**, pas requise pour une prestation intellectuelle/logicielle. Un "bon pour accord" signé suffit._
@@ -137,6 +140,6 @@ _Note : la mention manuscrite "devis reçu avant l'exécution des travaux" est u
 - **Périmètre exclu :** développement applicatif, migration de données, astreinte 24/7 (→ voir contrat de maintenance séparé).
 - **Critère d'acceptation :** un push sur `main` déploie en staging en < 10 min, rollback documenté testé une fois, alerte qui se déclenche sur un test de charge.
 - **Prix :** forfait 6 000 € HT, acompte 40 % à la commande, solde à la réception sans réserve, paiement à 15 jours.
-- **Micro-entreprise :** "TVA non applicable, art. 293 B du CGI".
+- **Micro-entreprise :** "TVA non applicable, art. L.223-3 du CIBS".
 
 </details>

@@ -4,17 +4,18 @@
 > **Why this doc:** your priced offer which, once signed **"bon pour accord"** (binding acceptance, literally "approved for agreement"), **becomes the contract**. The starting point of the cycle.
 > Commercial proposal (descriptive quote) that defines the scope, deliverables, price and timeline.
 > **Once signed "bon pour accord", it has contractual value: it IS the contract.** Take care with the excluded scope and the acceptance criteria, that is what prevents disputes.
-> ⚠️ Not legal advice. The required mentions depend on your status (micro-enterprise, VAT) and the type of client (B2B/B2C) — check the current rules on service-public.fr / URSSAF (see `SOURCES.md`).
+> ⚠️ Not legal advice. The required mentions depend on your status (micro-enterprise, VAT) and the type of client (B2B/B2C): check the current rules on service-public.fr / URSSAF (see `SOURCES.md`).
 > **Work on a copy, never on this file.** `cp devis.md ~/Documents/clients/x/quote-2026-001.md`, then fill the copy.
 > Replace the `[placeholders]`. Keep the sections you need, delete the rest. Leave the `>` lines: they never reach the PDF.
-> **Export:** `scripts/utils/md2pdf.sh your-copy.md` — it warns if any placeholder a client would see is left.
+> **Export:** `scripts/utils/md2pdf.sh your-copy.md`, it warns if any placeholder a client would see is left.
 
 ## At a glance
 
+- **Offer:** [infrastructure / website redesign / AI environment setup] (chapter A, B or C of part 2 of the CGV)
 - **Provider:** [name, legal status, address, SIREN/SIRET]
 - **Client:** [name, address]
 - **Date:** [DD/MM/YYYY] · **Quote ref.:** [no.]
-- **Contact:** [email] · [phone]
+- **Contact:** [email]
 - **Offer validity:** [e.g. 30 days]
 - **Status:** [draft / sent / signed]
 
@@ -31,7 +32,7 @@ What is covered, broken down finely enough to leave no ambiguity (WBS approach: 
 
 ## 3. Scope excluded (exclusions)
 
-What is **not** included. The list that prevents the most disputes. Any addition goes through an **avenant** (contract amendment — see `avenant.md`).
+What is **not** included. The list that prevents the most disputes. Any addition goes through an **avenant** (contract amendment, see `avenant.md`).
 
 - [Out of scope 1]
 - [Out of scope 2]
@@ -88,7 +89,8 @@ Detail: each service with quantity/unit price or fixed fee, hourly rate if appli
 | [service] | [x]             | [€]                  | [€]             | [rate] |
 
 - **Total excl. VAT:** [€] · **VAT:** [€] · **Total incl. VAT:** [€]
-- **Deposit:** [40% on order] · **Balance:** [on acceptance without reservations — see `pv-reception.md`] · **Payment:** [15 days from invoice date]
+- **Deposit and balance:** according to the offer's schedule (CGV, part 2): [40% on order, balance on …] · **Payment:** [15 days from invoice date]
+- **TVA non applicable, art. L.223-3 du CIBS** (VAT not applicable, art. L.223-3 of the CIBS).
 
 ## 9. Quote validity period
 
@@ -96,20 +98,22 @@ Detail: each service with quantity/unit price or fixed fee, hourly rate if appli
 
 ## 10. Conditions
 
-- **Modification:** any change of scope is the subject of a signed **avenant** (contract amendment — **art. 1193 Code civil**, French Civil Code art. 1193). See `avenant.md`.
-- **T&Cs (CGV):** attached to this quote, **version [1.0] dated [DD/MM/YYYY]** (see `cgv.md`). The Client acknowledges having read them. They carry late-payment interest, acceptance, warranty, **assignment of intellectual property on payment in full** and the liability cap. **Citing the version is essential**: it is what proves which one was accepted.
+- **Modification:** any change of scope is the subject of a signed **avenant** (contract amendment, **art. 1193 Code civil**, French Civil Code art. 1193). See `avenant.md`.
+- **T&Cs (CGV):** attached to this quote, **version [1.0] dated [DD/MM/YYYY]** (see `cgv.md`). The Client acknowledges having read them. Part 1 and the chapter of the offer named at the top apply. They carry in particular the schedule, acceptance, warranty, **assignment of intellectual property on payment in full**, the liability cap and sensitive data (§16 bis). **Citing the version is essential**: it is what proves which one was accepted.
 
-## 11. Signature — bon pour accord
+## 11. Signature: bon pour accord
 
 The client's dated signature preceded by the words **"Bon pour accord"** (binding acceptance) = formal acceptance forming the contract.
 
+> **Sign remotely** (email or electronic signature), never at the client's premises: a quote signed on site with a professional employing 5 people or fewer, for a service outside its main activity, gives it 14 days to withdraw (art. L.221-3 of the French consumer code) [to check].
+
 - Provider: [name, date, signature]
-- Client: **Bon pour accord** — [name, date, signature]
+- Client: **Bon pour accord**: [name, date, signature]
 
 ---
 
 <details>
-<summary><b>Mandatory FR mentions — checklist</b> <i>(check according to B2C / B2B and your status)</i></summary>
+<summary><b>Mandatory FR mentions, checklist</b> <i>(check according to B2C / B2B and your status)</i></summary>
 
 Source: service-public F31144 (see `SOURCES.md`). **Required** for a consumer / personal-services client; **strongly recommended** in B2B.
 
@@ -122,7 +126,7 @@ Source: service-public F31144 (see `SOURCES.md`). **Required** for a consumer / 
 - [ ] Breakdown of ancillary costs (excl. VAT / incl. VAT)
 - [ ] Offer validity period
 - [ ] Date / lead time for execution or delivery
-- [ ] **Micro-enterprise under franchise de TVA (VAT exemption for small businesses):** prices excl. VAT + the mention **"TVA non applicable, art. 293 B du CGI"** (VAT not applicable, French Tax Code art. 293 B) — ⚠️ replaced by **"TVA non applicable, art. L.223-3 du CIBS"** (VAT not applicable, art. L.223-3 of the CIBS, the French code on taxation of goods and services) from **1 September 2026**.
+- [ ] **Micro-enterprise under franchise de TVA (VAT exemption for small businesses):** prices excl. VAT + the mention **"TVA non applicable, art. 293 B du CGI"** (VAT not applicable, French Tax Code art. 293 B), replaced by **"TVA non applicable, art. L.223-3 du CIBS"** (VAT not applicable, art. L.223-3 of the CIBS, the French code on taxation of goods and services) since **1 September 2026**, both accepted until the end of 2027. Use the CIBS wording.
 - [ ] Keep a copy **≥ 1 year**.
 
 _Note: the handwritten mention "devis reçu avant l'exécution des travaux" (quote received before the work was carried out) is a **construction/building-works** rule, not required for an intellectual/software service. A signed "bon pour accord" is enough._
@@ -138,6 +142,6 @@ _Note: the handwritten mention "devis reçu avant l'exécution des travaux" (quo
 - **Scope out:** application development, data migration, 24/7 on-call (→ see separate maintenance contract).
 - **Acceptance criterion:** a push to `main` deploys to staging in < 10 min, documented rollback tested once, an alert firing on a load test.
 - **Price:** fixed fee €6,000 excl. VAT, 40% deposit on order, balance on acceptance without reservations, payment within 15 days.
-- **Micro-enterprise:** "TVA non applicable, art. 293 B du CGI" (VAT not applicable, French Tax Code art. 293 B).
+- **Micro-enterprise:** "TVA non applicable, art. L.223-3 du CIBS" (VAT not applicable, art. L.223-3 of the CIBS).
 
 </details>
